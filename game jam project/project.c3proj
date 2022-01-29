@@ -40,8 +40,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
+			"id": "jumpthru",
+			"name": "Jump-thru",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -73,8 +73,9 @@
 			"obstacleBlack",
 			"heroBlack",
 			"waterInBlack",
+			"Keyboard",
 			"obstacleWhite",
-			"Keyboard"
+			"obstacleWhite2"
 		],
 		"subfolders": []
 	},

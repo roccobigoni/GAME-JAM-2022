@@ -1,7 +1,7 @@
 {
-	"name": "obstacleWhite",
+	"name": "obstacleWhite2",
 	"plugin-id": "Sprite",
-	"sid": 105576207220521,
+	"sid": 800058810293928,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -17,18 +17,18 @@
 				"frames": [
 					{
 						"width": 64,
-						"height": 128,
+						"height": 64,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9190521,
+						"imageSpriteId": 3650302,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 143194049393310,
+				"sid": 586137084797366,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

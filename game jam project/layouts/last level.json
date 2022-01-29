@@ -152,10 +152,9 @@
 					"uid": 2,
 					"instanceVariables": {},
 					"behaviors": {
-						"Solid": {
+						"Jumpthru": {
 							"properties": {
-								"enabled": true,
-								"tags": ""
+								"enabled": true
 							}
 						}
 					},
@@ -296,7 +295,7 @@
 					},
 					"world": {
 						"x": 400,
-						"y": 96,
+						"y": 112,
 						"width": 50,
 						"height": 88,
 						"originX": 0.5,
