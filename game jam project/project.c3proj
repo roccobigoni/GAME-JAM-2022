@@ -13,12 +13,58 @@
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "waterbg",
+			"name": "Water background",
+			"author": "Viktor Korsun",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "o42b46ecghm",
 	"objectTypes": {
 		"items": [
-			"Tilemap"
+			"Tilemap",
+			"hero",
+			"TiledBackgroundBlack",
+			"TiledBackground2White",
+			"obstacle",
+			"heroiBlack",
+			"waterInBlack"
 		],
 		"subfolders": []
 	},
