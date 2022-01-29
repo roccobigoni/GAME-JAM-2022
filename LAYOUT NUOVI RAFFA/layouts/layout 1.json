@@ -1,0 +1,356 @@
+{
+	"name": "Layout 1",
+	"layers": [
+		{
+			"name": "Layer 1",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Acqua": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
+					"world": {
+						"x": 216.5,
+						"y": 255.5,
+						"width": 473,
+						"height": 601,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 531870534613338,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": true,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "Layer 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Acqua": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
+					"world": {
+						"x": 676,
+						"y": 263.5,
+						"width": 467,
+						"height": 598,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Tilemap",
+					"properties": {
+						"initially-visible": true,
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solido": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"ownData": {
+						"tilemapData": {
+							"width": 106,
+							"height": 60,
+							"max-width": 117,
+							"max-height": 60,
+							"data": "371x0,1,10x0,1,48x0,1,10x0,1,41x0,4x1,3x0,1,10x0,1,41x0,1,2x0,1,3x0,1,10x0,1,41x0,1,2x0,1,3x0,1,10x0,1,41x0,1,2x0,1,3x0,1,10x0,1,41x0,1,2x0,1,3x0,1,10x0,1,3x0,1,37x0,1,2x0,1,3x0,1,3x0,3x1,4x0,1,3x0,1,37x0,1,2x0,1,3x0,1,3x0,1,10x0,1,37x0,1,2x0,1,3x0,1,3x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,51x0,1,7x0,1,51x0,1,7x0,1,59x0,1,467x0,5,22x0,5,36x0,5,22x0,5,36x0,5,7x0,5,14x0,5,36x0,5,7x0,5,14x0,5,36x0,5,7x0,5,14x0,5,36x0,5,7x0,6x5,9x0,5,36x0,5,2x0,5,4x0,5,4x0,5,9x0,5,36x0,5,2x0,5,9x0,5,9x0,5,36x0,5,2x0,5,9x0,5,9x0,5,36x0,5,2x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,59x0,5,4123x0"
+						},
+						"tile-width": 16,
+						"tile-height": 16,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
+					"world": {
+						"x": -1,
+						"y": -1,
+						"width": 1708,
+						"height": 960,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite3",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Acqua": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
+					"world": {
+						"x": 741,
+						"y": 338,
+						"width": 135,
+						"height": 65,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Acqua": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
+					"world": {
+						"x": 72,
+						"y": 291,
+						"width": 52,
+						"height": 80,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {},
+					"effects": {
+						"Acqua": {
+							"parameters": {
+								"speed": 0.1,
+								"x-speed": 0.3,
+								"y-speed": 0.3,
+								"intensity": 3,
+								"frequency": 4,
+								"angle": 7,
+								"delta": 20,
+								"reflectivity": 400,
+								"emboss": 0.3
+							}
+						}
+					},
+					"world": {
+						"x": 366,
+						"y": 344,
+						"width": 52,
+						"height": 80,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 3.140273144459271,
+						"zElevation": 0
+					}
+				}
+			],
+			"sid": 815109735748456,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 724753234247021,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 1708,
+	"height": 960,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "Foglio evento 1"
+}
