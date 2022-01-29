@@ -1,17 +1,16 @@
 {
-	"name": "heroiBlack",
+	"name": "obstacleWhite",
 	"plugin-id": "Sprite",
-	"sid": 934935032726380,
+	"sid": 942752890857964,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
+	"behaviorTypes": [],
+	"effectTypes": [
 		{
-			"behaviorId": "Platform",
-			"name": "Platform",
-			"sid": 643333473132167
+			"effectId": "waterbg",
+			"name": "WaterBackground"
 		}
 	],
-	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
@@ -24,24 +23,12 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9996698,
-						"collisionPoly": {
-							"points": [
-								0.003968253968253968,
-								0.003968253968253968,
-								0.996031746031746,
-								0.003968253968253968,
-								0.996031746031746,
-								0.996031746031746,
-								0.003968253968253968,
-								0.996031746031746
-							]
-						},
+						"imageSpriteId": 3045998,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 186942785442620,
+				"sid": 337174630867269,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
