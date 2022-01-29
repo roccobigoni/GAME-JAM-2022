@@ -8,8 +8,8 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Sprite",
-			"name": "Sprite",
+			"id": "Tilemap",
+			"name": "Tilemap",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -18,7 +18,7 @@
 	"uniqueId": "o42b46ecghm",
 	"objectTypes": {
 		"items": [
-			"Sprite"
+			"Tilemap"
 		],
 		"subfolders": []
 	},
