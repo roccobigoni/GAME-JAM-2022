@@ -1,0 +1,169 @@
+{
+	"name": "levaWhite",
+	"plugin-id": "Sprite",
+	"sid": 764668578691451,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 373,
+						"height": 241,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7454153,
+						"collisionPoly": {
+							"points": [
+								0.8734196321399563,
+								0,
+								0,
+								0,
+								0.8734196321399563,
+								1,
+								0,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 373,
+						"height": 241,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2518566,
+						"collisionPoly": {
+							"points": [
+								0.6595174262734584,
+								0.42323651452282157,
+								0.30563002680965146,
+								0.35269709543568467,
+								0.6595174262734584,
+								0.9875518672199171,
+								0.2064343163538874,
+								0.35269709543568467
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 332,
+						"height": 271,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6807510,
+						"collisionPoly": {
+							"points": [
+								0.6174698795180723,
+								0.01107011070110701,
+								0.7831325301204822,
+								0.42435424354243545,
+								0.6174698795180723,
+								0.988929889298893,
+								0.5060240963855421,
+								0.42435424354243545
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 384,
+						"height": 249,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4241649,
+						"collisionPoly": {
+							"points": [
+								0.5338541666666666,
+								0.4457831325301205,
+								0.8203125,
+								0.37349397590361444,
+								0.5338541666666666,
+								0.9879518072289156,
+								0.6692708333333334,
+								0.37349397590361444
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 373,
+						"height": 241,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2369240,
+						"collisionPoly": {
+							"points": [
+								0.5495978552278821,
+								0.42323651452282157,
+								0.7908847184986595,
+								0.35269709543568467,
+								0.5495978552278821,
+								0.9875518672199171,
+								0.6916890080428955,
+								0.35269709543568467
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 373,
+						"height": 241,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5808764,
+						"collisionPoly": {
+							"points": [
+								0.5495978552278821,
+								0.42323651452282157,
+								0.7908847184986595,
+								0.35269709543568467,
+								0.5495978552278821,
+								0.9875518672199171,
+								0.6916890080428955,
+								0.35269709543568467
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 270049097209297,
+				"name": "action leva",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

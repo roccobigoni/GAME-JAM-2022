@@ -80,7 +80,9 @@
 			"door",
 			"coin",
 			"coin2",
-			"door2"
+			"door2",
+			"levaWhite",
+			"enemy"
 		],
 		"subfolders": []
 	},
@@ -97,7 +99,8 @@
 			"level 2",
 			"level 3",
 			"level 4",
-			"level 5"
+			"level 5",
+			"level 6"
 		],
 		"subfolders": []
 	},
