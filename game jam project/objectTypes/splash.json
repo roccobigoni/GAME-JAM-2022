@@ -1,0 +1,57 @@
+{
+	"name": "splash",
+	"plugin-id": "Sprite",
+	"sid": 807390633663575,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 991,
+						"height": 1024,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4639359,
+						"collisionPoly": {
+							"points": [
+								0.4066599394550959,
+								0.3935546875,
+								0.5,
+								0.2998046875,
+								0.5560040363269425,
+								0.4287109375,
+								0.822401614530777,
+								0.5,
+								0.6286579212916246,
+								0.640625,
+								0.5,
+								0.8154296875,
+								0.3773965691220989,
+								0.6337890625,
+								0.16750756811301715,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 224951715461283,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -9,6 +9,11 @@
 			"behaviorId": "Platform",
 			"name": "Platform",
 			"sid": 643333473132167
+		},
+		{
+			"behaviorId": "Flash",
+			"name": "Flash",
+			"sid": 975629115706692
 		}
 	],
 	"effectTypes": [],

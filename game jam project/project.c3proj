@@ -64,8 +64,24 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Pathfinding",
-			"name": "Pathfinding",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -100,7 +116,10 @@
 			"obstacleBlack2",
 			"heroBlack2",
 			"blackSea",
-			"Audio"
+			"Audio",
+			"wall",
+			"wall2",
+			"splash"
 		],
 		"subfolders": []
 	},

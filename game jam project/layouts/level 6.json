@@ -450,6 +450,9 @@
 								"default-controls": true,
 								"enabled": true
 							}
+						},
+						"Flash": {
+							"properties": {}
 						}
 					},
 					"world": {

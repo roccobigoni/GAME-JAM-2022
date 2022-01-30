@@ -214,6 +214,9 @@
 								"default-controls": true,
 								"enabled": true
 							}
+						},
+						"Flash": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -230,64 +233,6 @@
 							1
 						],
 						"angle": 6.276860725311229,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "obstacleBlack",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "off",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 19,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 112,
-						"y": 496,
-						"width": 128,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "obstacleBlack",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "off",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 20,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 576,
-						"y": 528,
-						"width": 128,
-						"height": 64,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
 						"zElevation": 0
 					}
 				}

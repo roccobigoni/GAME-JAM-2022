@@ -214,6 +214,9 @@
 								"default-controls": true,
 								"enabled": true
 							}
+						},
+						"Flash": {
+							"properties": {}
 						}
 					},
 					"world": {
@@ -449,7 +452,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1264,
+						"x": 1248,
 						"y": 656,
 						"width": 16,
 						"height": 16,
