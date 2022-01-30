@@ -326,126 +326,450 @@
 			"sid": 586178895488778
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "introduction layout",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "heroBlack",
-					"sid": 673139478794350,
-					"parameters": {
-						"object": "obstacleBlack"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack",
+							"sid": 102473236300068,
+							"parameters": {
+								"object": "obstacleBlack"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "obstacleBlack",
+							"sid": 681359199133151,
+							"parameters": {
+								"animation": "\"on\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 551600933370420
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "heros",
+							"sid": 343650903781060,
+							"parameters": {
+								"comparison": 5,
+								"y-co-ordinate": "800"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 336484055781366,
+							"parameters": {
+								"layout": "level 1"
+							}
+						}
+					],
+					"sid": 102366418424675
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack2",
+							"sid": 800668459158323,
+							"parameters": {
+								"object": "obstacleBlack2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "obstacleBlack2",
+							"sid": 851362999188803,
+							"parameters": {
+								"animation": "\"on\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 567302687629202
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "obstacleBlack2",
+							"sid": 347627691785863,
+							"parameters": {
+								"animation": "\"on\""
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "obstacleBlack",
+							"sid": 641039773031391,
+							"parameters": {
+								"animation": "\"on\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "obstacleBlack2",
+							"sid": 709362139700317
+						},
+						{
+							"id": "destroy",
+							"objectClass": "obstacleBlack",
+							"sid": 521738566833639
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 537784762470494,
+							"parameters": {
+								"seconds": "0.5"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Tilemap",
+							"sid": 940662034868495
+						}
+					],
+					"sid": 810531472398958
 				}
 			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "obstacleBlack",
-					"sid": 379670301572403,
-					"parameters": {
-						"animation": "\"on\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 191363743239393
+			"sid": 496909209698471
 		},
 		{
-			"eventType": "block",
-			"conditions": [
+			"eventType": "group",
+			"disabled": false,
+			"title": "sound ",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
 				{
-					"id": "compare-y",
-					"objectClass": "heros",
-					"sid": 787115597257636,
-					"parameters": {
-						"comparison": 5,
-						"y-co-ordinate": "800"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 183710372875144,
-					"parameters": {
-						"layout": "level 1"
-					}
-				}
-			],
-			"sid": 285357398753265
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "heroBlack2",
-					"sid": 100458637983151,
-					"parameters": {
-						"object": "obstacleBlack2"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "obstacleBlack2",
-					"sid": 973521339452329,
-					"parameters": {
-						"animation": "\"on\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 891496024131980
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-animation-playing",
-					"objectClass": "obstacleBlack2",
-					"sid": 469949085542448,
-					"parameters": {
-						"animation": "\"on\""
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-landed",
+							"objectClass": "heroBlack",
+							"sid": 542659571450941,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 112313151941215,
+							"parameters": {
+								"audio-file": "atteraggio normale",
+								"loop": "not-looping",
+								"volume": "-3",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 791786909222783
 				},
 				{
-					"id": "is-animation-playing",
-					"objectClass": "obstacleBlack",
-					"sid": 794642676763518,
-					"parameters": {
-						"animation": "\"on\""
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-landed",
+							"objectClass": "heroBlack2",
+							"sid": 500330118180856,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 171154159251327,
+							"parameters": {
+								"audio-file": "aqtterraggio freq.alto",
+								"loop": "not-looping",
+								"volume": "1",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 997690027396222
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-jump",
+							"objectClass": "heroBlack",
+							"sid": 504587163715756,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 926989136885039,
+							"parameters": {
+								"audio-file": "salto",
+								"loop": "not-looping",
+								"volume": "-3",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 913258282134515
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-jump",
+							"objectClass": "heroBlack2",
+							"sid": 170613319163696,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 784378376266119,
+							"parameters": {
+								"audio-file": "salto freq.alto",
+								"loop": "not-looping",
+								"volume": "1",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 948644796160204
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 499611032325413,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 384868639225837,
+							"parameters": {
+								"audio-file": "walk . watermp3",
+								"loop": "looping",
+								"volume": "-3",
+								"tag-optional": "\"walk\""
+							}
+						}
+					],
+					"sid": 640034248090076
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 894119930421718,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 747578439138746,
+							"parameters": {
+								"audio-file": "walk . watermp3",
+								"loop": "looping",
+								"volume": "-3",
+								"tag-optional": "\"walk\""
+							}
+						}
+					],
+					"sid": 120052568076422
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 219699086571192,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 943873679130098,
+							"parameters": {
+								"tag": "\"walk\""
+							}
+						}
+					],
+					"sid": 999115497930120
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 502479030330885,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 904304745497390,
+							"parameters": {
+								"tag": "\"walk\""
+							}
+						}
+					],
+					"sid": 224470323238145
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 514037728684908,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 928270434477632,
+							"parameters": {
+								"audio-file": "walk water freq. alto",
+								"loop": "looping",
+								"volume": "-3",
+								"tag-optional": "\"walk a\"\n\n"
+							}
+						}
+					],
+					"sid": 582692158342316
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 488593110665188,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 590482245903907,
+							"parameters": {
+								"audio-file": "walk water freq. alto",
+								"loop": "looping",
+								"volume": "-3",
+								"tag-optional": "\"walk a\""
+							}
+						}
+					],
+					"sid": 407229433439826
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 220810279109976,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 286145950443838,
+							"parameters": {
+								"tag": "\"walk a\""
+							}
+						}
+					],
+					"sid": 796240713725067
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 536684051305722,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Audio",
+							"sid": 293780212534053,
+							"parameters": {
+								"tag": "\"walk a\""
+							}
+						}
+					],
+					"sid": 789729489021453
 				}
 			],
-			"actions": [
-				{
-					"id": "destroy",
-					"objectClass": "obstacleBlack2",
-					"sid": 746381727011733
-				},
-				{
-					"id": "destroy",
-					"objectClass": "obstacleBlack",
-					"sid": 508415797118238
-				},
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 833963377719822,
-					"parameters": {
-						"seconds": "0.5"
-					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Tilemap",
-					"sid": 381981122555370
-				}
-			],
-			"sid": 331416405533057
+			"sid": 376238524262128
 		}
 	],
 	"sid": 916420559192232

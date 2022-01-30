@@ -39,6 +39,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "jumpthru",
 			"name": "Jump-thru",
@@ -50,6 +58,14 @@
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -82,7 +98,9 @@
 			"levaWhite",
 			"enemy",
 			"obstacleBlack2",
-			"heroBlack2"
+			"heroBlack2",
+			"blackSea",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -119,7 +137,114 @@
 		},
 		"sound": {
 			"items": [],
-			"subfolders": []
+			"subfolders": [
+				{
+					"items": [
+						{
+							"name": "aqtterraggio freq.alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 110893510658420
+						},
+						{
+							"name": "atteraggio normale.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 353580876511108
+						},
+						{
+							"name": "leva freq alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 576023822502785
+						},
+						{
+							"name": "leva normal.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 282563932611447
+						},
+						{
+							"name": "porta  apertura freq.alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 915056420422245
+						},
+						{
+							"name": "porta  apertura.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 870480442174894
+						},
+						{
+							"name": "porta  chiusura freq.alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 991620879517975
+						},
+						{
+							"name": "porta  chiusura.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 179390005223642
+						},
+						{
+							"name": "prima scelta music.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 494295213216368
+						},
+						{
+							"name": "salto freq.alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 682847760552326
+						},
+						{
+							"name": "salto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 523706597269175
+						},
+						{
+							"name": "SOUNDS CORRECT.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 719050370166920
+						},
+						{
+							"name": "walk . watermp3.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 903038799365822
+						},
+						{
+							"name": "walk water freq. alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 301319536843597
+						},
+						{
+							"name": "Wet impact 02.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 134870304927588
+						},
+						{
+							"name": "Wet splat 01.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 751109439122011
+						},
+						{
+							"name": "Wet splat 02.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 514740975781240
+						},
+						{
+							"name": "Wet splat 03.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 515651329058871
+						},
+						{
+							"name": "Wet splat 04.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 243636935241262
+						},
+						{
+							"name": "Wet splat 05.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 516575518773821
+						}
+					],
+					"subfolders": [],
+					"name": "sfx"
+				}
+			]
 		},
 		"music": {
 			"items": [],
