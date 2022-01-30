@@ -79,7 +79,8 @@
 			"leve",
 			"door",
 			"coin",
-			"coin2"
+			"coin2",
+			"door2"
 		],
 		"subfolders": []
 	},
@@ -95,7 +96,8 @@
 			"Last level",
 			"level 2",
 			"level 3",
-			"level 4"
+			"level 4",
+			"level 5"
 		],
 		"subfolders": []
 	},
