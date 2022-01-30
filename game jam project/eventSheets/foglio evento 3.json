@@ -18,11 +18,6 @@
 					"parameters": {
 						"layout": "\"start comand layout\""
 					}
-				},
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 806725828438797
 				}
 			],
 			"sid": 580029547905540

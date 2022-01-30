@@ -933,6 +933,31 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "compare-y",
+							"objectClass": "heros",
+							"sid": 323855289329754,
+							"parameters": {
+								"comparison": 5,
+								"y-co-ordinate": "800"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 578793022650563,
+							"parameters": {
+								"layout": "level 2"
+							}
+						}
+					],
+					"sid": 415307151922127
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "blackSea",
 							"sid": 370085082305059,
@@ -1296,6 +1321,58 @@
 				}
 			],
 			"sid": 831796789384629
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 617865925359059
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-animation",
+					"objectClass": "leve",
+					"sid": 143201037866720
+				}
+			],
+			"sid": 443297195279037
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "heroBlack",
+					"sid": 157681152733597,
+					"parameters": {
+						"object": "leve"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "leve",
+					"sid": 648655580309705,
+					"parameters": {
+						"animation": "\"action leva\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "door",
+					"sid": 606095834921052,
+					"parameters": {
+						"animation": "\"[animation 1] 2\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 401006137486518
 		}
 	],
 	"sid": 916420559192232
