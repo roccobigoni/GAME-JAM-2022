@@ -74,7 +74,6 @@
 			"heroBlack",
 			"waterInBlack",
 			"Keyboard",
-			"obstacleWhite",
 			"obstacleWhite2",
 			"leve",
 			"door",
@@ -82,7 +81,8 @@
 			"coin2",
 			"door2",
 			"levaWhite",
-			"enemy"
+			"enemy",
+			"obstacleBlack2"
 		],
 		"subfolders": []
 	},
@@ -95,12 +95,12 @@
 	"layouts": {
 		"items": [
 			"level 1",
-			"Last level",
 			"level 2",
 			"level 3",
 			"level 4",
 			"level 5",
-			"level 6"
+			"level 6",
+			"start comand layout"
 		],
 		"subfolders": []
 	},

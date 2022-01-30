@@ -1,5 +1,5 @@
 {
-	"name": "Last level",
+	"name": "start comand layout",
 	"layers": [
 		{
 			"name": "back",
@@ -19,7 +19,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 4,
+					"uid": 97,
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
@@ -67,7 +67,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 5,
+					"uid": 98,
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
@@ -103,7 +103,7 @@
 					}
 				}
 			],
-			"sid": 532440090175414,
+			"sid": 717197428741897,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -149,7 +149,7 @@
 						"tile-y-drawing-offset": 0,
 						"drawing-mode": "top-to-right"
 					},
-					"uid": 2,
+					"uid": 99,
 					"instanceVariables": {},
 					"behaviors": {
 						"Jumpthru": {
@@ -164,7 +164,7 @@
 							"height": 46,
 							"max-width": 180,
 							"max-height": 148,
-							"data": "327x0,4,130x0,4,16x0,4,130x0,4,16x0,4,130x0,4,16x0,4,130x0,4,16x0,4,130x0,4,16x0,4,130x0,4,16x0,4,130x0,4,16x0,4,130x0,4,16x0,4,130x0,4,16x0,4,130x0,4,16x0,4,147x0,4,147x0,4,147x0,4,147x0,4,137x0,4,9x0,4,123x0,4,13x0,4,9x0,4,123x0,4,13x0,4,9x0,4,123x0,4,13x0,4,133x0,4,13x0,4,16x0,4,116x0,4,13x0,4,16x0,4,116x0,4,13x0,4,16x0,4,116x0,4,13x0,4,16x0,4,116x0,4,13x0,4,16x0,4,116x0,4,13x0,4,16x0,4,116x0,4,13x0,4,16x0,4,116x0,4,13x0,4,16x0,4,116x0,4,30x0,4,116x0,4,30x0,4,116x0,4,30x0,4,116x0,4,147x0,4,147x0,4,147x0,4,147x0,4,147x0,4,147x0,4,147x0,4,613x0,5,147x0,5,147x0,5,147x0,5,12x0,5,112x0,5,21x0,5,12x0,5,112x0,5,21x0,5,12x0,5,112x0,5,21x0,5,12x0,5,112x0,5,21x0,5,12x0,5,112x0,5,21x0,5,12x0,5,112x0,5,14x0,5,6x0,5,12x0,5,112x0,5,14x0,5,6x0,5,12x0,5,112x0,5,14x0,5,19x0,5,112x0,5,14x0,5,19x0,5,112x0,5,14x0,5,19x0,5,112x0,5,14x0,5,132x0,5,14x0,5,132x0,5,14x0,5,132x0,5,5x0,5,8x0,5,132x0,5,5x0,5,8x0,5,132x0,5,5x0,5,8x0,5,10x0,5,127x0,5,19x0,5,127x0,5,19x0,5,127x0,5,19x0,5,127x0,5,19x0,5,127x0,5,19x0,5,127x0,5,19x0,5,127x0,5,19x0,5,127x0,5,19x0,5,127x0,5,19x0,5,147x0,5,15950x0"
+							"data": "22x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,1,21,1,21,144x0,26,46,2x66,144x0,26,46,2x66,144x0,2x26,46,66,144x0,26,2x46,66,144x0,26,2x46,66,144x0,26,2x46,66,144x0,26,2x46,66,144x0,26,2x46,66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,2x46,66,144x0,26,2x46,66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,46,2x66,144x0,26,2x46,66,144x0,26,2x46,66,144x0,2x26,46,66,14922x0"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -190,7 +190,7 @@
 					}
 				}
 			],
-			"sid": 659637212434974,
+			"sid": 389615109300262,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -231,7 +231,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 3,
+					"uid": 100,
 					"instanceVariables": {},
 					"behaviors": {
 						"Platform": {
@@ -244,14 +244,14 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
+								"default-controls": false,
 								"enabled": true
 							}
 						}
 					},
 					"world": {
-						"x": 912,
-						"y": 112,
+						"x": 992,
+						"y": 144,
 						"width": 50,
 						"height": 88,
 						"originX": 0.5,
@@ -275,7 +275,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 6,
+					"uid": 101,
 					"instanceVariables": {},
 					"behaviors": {
 						"Platform": {
@@ -288,14 +288,14 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": false,
+								"default-controls": true,
 								"enabled": true
 							}
 						}
 					},
 					"world": {
-						"x": 400,
-						"y": 112,
+						"x": 336,
+						"y": 144,
 						"width": 50,
 						"height": 88,
 						"originX": 0.5,
@@ -309,9 +309,67 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "obstacleBlack",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "on",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 80,
+						"y": 320,
+						"width": 128,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "obstacleBlack2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "on",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 22,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1200,
+						"y": 320,
+						"width": 128,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 251050316116882,
+			"sid": 312577123197174,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -339,7 +397,7 @@
 			"global": false
 		}
 	],
-	"sid": 663211631616695,
+	"sid": 497447289179499,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 2560,
