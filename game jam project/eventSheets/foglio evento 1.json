@@ -1,0 +1,31 @@
+{
+	"name": "Foglio evento 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "mouse",
+					"sid": 345583060079449,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 818235293278611,
+					"parameters": {
+						"layout": "Layout 2"
+					}
+				}
+			],
+			"sid": 160905707588299
+		}
+	],
+	"sid": 156985989292656
+}

@@ -17,7 +17,7 @@
 		{
 			"type": "plugin",
 			"id": "TiledBg",
-			"name": "Tiled Background",
+			"name": "Sfondo affiancato",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -33,7 +33,7 @@
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "Keyboard",
+			"name": "Tastiera",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -47,9 +47,25 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Testo",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "jumpthru",
-			"name": "Jump-thru",
+			"name": "Salta attraverso",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -57,7 +73,7 @@
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Platform",
+			"name": "Piattaforme",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -73,7 +89,7 @@
 		{
 			"type": "behavior",
 			"id": "MoveTo",
-			"name": "Move To",
+			"name": "Muovi verso",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -81,7 +97,15 @@
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "Solid",
+			"name": "Solido",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Ancoraggio",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -89,7 +113,15 @@
 		{
 			"type": "effect",
 			"id": "waterbg",
-			"name": "Water background",
+			"name": "Sfondo d'acqua",
+			"author": "Viktor Korsun",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "water",
+			"name": "Acqua",
 			"author": "Viktor Korsun",
 			"version": "r276.2",
 			"bundled": false
@@ -119,7 +151,20 @@
 			"Audio",
 			"wall",
 			"wall2",
-			"splash"
+			"splash",
+			"txtscore",
+			"Score",
+			"Sprite3",
+			"Sprite",
+			"menu",
+			"title",
+			"Sprite6",
+			"Sprite4",
+			"controls",
+			"controlsarrow",
+			"textstart",
+			"gameover",
+			"mouse"
 		],
 		"subfolders": []
 	},
@@ -139,13 +184,20 @@
 			"level 4",
 			"level 5",
 			"level 6",
-			"start comand layout"
+			"start comand layout",
+			"Layout 1",
+			"Layout 2",
+			"Layout 3"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"TUTORIAL EVENT",
+			"Foglio evento 1",
+			"Foglio evento 2",
+			"Foglio evento 3"
 		],
 		"subfolders": []
 	},
@@ -274,7 +326,13 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "Multicolore-Regular.otf",
+					"type": "application/font-sfnt",
+					"sid": 386168493042269
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {

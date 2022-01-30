@@ -1,0 +1,147 @@
+{
+	"name": "TUTORIAL EVENT",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "timescore",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 619009743349549
+		},
+		{
+			"eventType": "variable",
+			"name": "coins",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 856169500396966
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "heroBlack",
+					"sid": 436987394741095,
+					"parameters": {
+						"object": "coin2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "coin2",
+					"sid": 859738694544406
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 811756320428520,
+					"parameters": {
+						"variable": "coins",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "txtscore",
+					"sid": 302351131908070,
+					"parameters": {
+						"text": "\"score: \" & coins"
+					}
+				}
+			],
+			"sid": 904640211967521
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "heroBlack2",
+					"sid": 269953967392369,
+					"parameters": {
+						"object": "coin"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 323695682769825
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 424857780290529
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "txtscore",
+					"sid": 986398048614847,
+					"parameters": {
+						"text": "\"coins: \" & coins"
+					}
+				}
+			],
+			"sid": 564721257962378
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "heroBlack",
+					"sid": 889959973042356
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "txtscore",
+					"sid": 967083258228873,
+					"parameters": {
+						"text": "\"score: \" & 0"
+					}
+				}
+			],
+			"sid": 783358314794552,
+			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 779611019244213,
+					"parameters": {
+						"interval-seconds": "5.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 571251818940572,
+					"parameters": {
+						"variable": "timescore",
+						"value": "20"
+					}
+				}
+			],
+			"sid": 308890443594596
+		}
+	],
+	"sid": 883172276334615
+}

@@ -1,41 +1,46 @@
 {
-	"name": "coin2",
+	"name": "Sprite",
 	"plugin-id": "Sprite",
-	"sid": 959742080776745,
+	"sid": 277945355072803,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "water",
+			"name": "Acqua"
+		}
+	],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 33,
-						"height": 34,
-						"originX": 0.5151515151515151,
+						"width": 252,
+						"height": 252,
+						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6054241,
+						"imageSpriteId": 6049404,
 						"collisionPoly": {
 							"points": [
-								0.030303030303030304,
-								0.029411764705882353,
-								1,
-								0.029411764705882353,
-								1,
-								0.9705882352941176,
-								0.030303030303030304,
-								0.9705882352941176
+								0.003968253968253968,
+								0.003968253968253968,
+								0.996031746031746,
+								0.003968253968253968,
+								0.996031746031746,
+								0.996031746031746,
+								0.003968253968253968,
+								0.996031746031746
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 764206959334398,
+				"sid": 428503561640135,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,0 +1,32 @@
+{
+	"name": "Foglio evento 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 598569371675969
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 547693934725908,
+					"parameters": {
+						"layout": "\"start comand layout\""
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 806725828438797
+				}
+			],
+			"sid": 580029547905540
+		}
+	],
+	"sid": 691361661664075
+}

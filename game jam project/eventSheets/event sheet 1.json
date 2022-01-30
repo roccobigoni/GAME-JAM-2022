@@ -2,6 +2,29 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 109148672768772,
+					"disabled": true
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 280883652604020,
+					"disabled": true,
+					"parameters": {
+						"layout": "Layout 1"
+					}
+				}
+			],
+			"sid": 680140663563989
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "comandi characters",
@@ -958,6 +981,14 @@
 							"id": "destroy",
 							"objectClass": "heroBlack2",
 							"sid": 154079605370496
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 236735185716297,
+							"parameters": {
+								"layout": "Layout 3"
+							}
 						}
 					],
 					"sid": 856162677843545
@@ -1014,6 +1045,14 @@
 							"id": "destroy",
 							"objectClass": "heroBlack2",
 							"sid": 815907365855567
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 289046664026197,
+							"parameters": {
+								"layout": "Layout 3"
+							}
 						}
 					],
 					"sid": 745693953787441
@@ -1071,6 +1110,14 @@
 							"id": "destroy",
 							"objectClass": "heroBlack2",
 							"sid": 887636762248433
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 821455165122955,
+							"parameters": {
+								"layout": "Layout 3"
+							}
 						}
 					],
 					"sid": 105391853767718
@@ -1128,12 +1175,127 @@
 							"id": "destroy",
 							"objectClass": "heroBlack",
 							"sid": 541113909045617
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 671638101979088,
+							"parameters": {
+								"layout": "Layout 3"
+							}
 						}
 					],
 					"sid": 545755653729721
 				}
 			],
 			"sid": 279457295478977
+		},
+		{
+			"eventType": "variable",
+			"name": "coins2",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 398623462974514
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "heroBlack",
+					"sid": 948212838673057,
+					"parameters": {
+						"object": "coin2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "coin2",
+					"sid": 149551552818057
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 648959669815819,
+					"parameters": {
+						"variable": "coins",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "txtscore",
+					"sid": 327116032074900,
+					"parameters": {
+						"text": "\"score: \" & coins"
+					}
+				}
+			],
+			"sid": 784410549112444
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "heroBlack2",
+					"sid": 866160301144568,
+					"parameters": {
+						"object": "coin"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "coin",
+					"sid": 900845892989995
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 705175717457861,
+					"parameters": {
+						"variable": "coins",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "txtscore",
+					"sid": 826232541596927,
+					"parameters": {
+						"text": "\"score: \" & coins"
+					}
+				}
+			],
+			"sid": 644807335296224
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 292492914399935
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "txtscore",
+					"sid": 317319685331661,
+					"parameters": {
+						"text": "\"coins: \" & coins"
+					}
+				}
+			],
+			"sid": 831796789384629
 		}
 	],
 	"sid": 916420559192232
