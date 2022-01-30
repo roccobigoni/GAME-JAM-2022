@@ -1,5 +1,452 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "comandi characters",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 774874205345248,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "heroBlack",
+							"sid": 511936339608111,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "jump"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "heroBlack",
+							"sid": 593104957713314,
+							"parameters": {
+								"animation": "\"Jump\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 450670002789632
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 227461217235684,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "heroBlack",
+							"sid": 823862560158495,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "heroBlack",
+							"sid": 776482825649261,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "heroBlack",
+							"sid": 246438277959453,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 687657978004122
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 971683317832235,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "heroBlack",
+							"sid": 551029097812529,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "heroBlack",
+							"sid": 542960047164159,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "heroBlack",
+							"sid": 984919965176976,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 289012473244941
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "heroBlack",
+							"sid": 477765601088570,
+							"behaviorType": "Platform",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "heroBlack",
+							"sid": 272319984837409,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 992360923607091
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 753961345350197,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "heroBlack2",
+							"sid": 928643104407279,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "heroBlack2",
+							"sid": 846644434817096,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "heroBlack2",
+							"sid": 916848581399846,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 922327242455496
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 975966132828276,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "heroBlack2",
+							"sid": 216273631746637,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "heroBlack2",
+							"sid": 537640043124377,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-mirrored",
+							"objectClass": "heroBlack2",
+							"sid": 393138112983858,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 844436453563988
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 684623465876524,
+							"parameters": {
+								"key": 38
+							}
+						},
+						{
+							"id": "is-jumping",
+							"objectClass": "heroBlack2",
+							"sid": 897309619777036,
+							"behaviorType": "Platform",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "heroBlack2",
+							"sid": 204279904993494,
+							"parameters": {
+								"animation": "\"Jump\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "simulate-control",
+							"objectClass": "heroBlack2",
+							"sid": 873155711280275,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "jump"
+							}
+						}
+					],
+					"sid": 905832072733761
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-landed",
+							"objectClass": "heroBlack2",
+							"sid": 699216444068881,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "heroBlack2",
+							"sid": 524045828647697,
+							"parameters": {
+								"animation": "\"Landed\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 634986413972210
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "heroBlack2",
+							"sid": 816714028441064,
+							"behaviorType": "Platform",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "heroBlack2",
+							"sid": 870686618579721,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 681475895562802
+				}
+			],
+			"sid": 586178895488778
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "heroBlack",
+					"sid": 673139478794350,
+					"parameters": {
+						"object": "obstacleBlack"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "obstacleBlack",
+					"sid": 379670301572403,
+					"parameters": {
+						"animation": "\"on\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 191363743239393
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-y",
+					"objectClass": "heros",
+					"sid": 787115597257636,
+					"parameters": {
+						"comparison": 5,
+						"y-co-ordinate": "800"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 183710372875144,
+					"parameters": {
+						"layout": "level 1"
+					}
+				}
+			],
+			"sid": 285357398753265
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "heroBlack2",
+					"sid": 100458637983151,
+					"parameters": {
+						"object": "obstacleBlack2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "obstacleBlack2",
+					"sid": 973521339452329,
+					"parameters": {
+						"animation": "\"on\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 891496024131980
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "obstacleBlack2",
+					"sid": 469949085542448,
+					"parameters": {
+						"animation": "\"on\""
+					}
+				},
+				{
+					"id": "is-animation-playing",
+					"objectClass": "obstacleBlack",
+					"sid": 794642676763518,
+					"parameters": {
+						"animation": "\"on\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "obstacleBlack2",
+					"sid": 746381727011733
+				},
+				{
+					"id": "destroy",
+					"objectClass": "obstacleBlack",
+					"sid": 508415797118238
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 833963377719822,
+					"parameters": {
+						"seconds": "0.5"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Tilemap",
+					"sid": 381981122555370
+				}
+			],
+			"sid": 331416405533057
+		}
+	],
 	"sid": 916420559192232
 }

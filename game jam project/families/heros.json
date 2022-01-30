@@ -1,0 +1,12 @@
+{
+	"name": "heros",
+	"plugin-id": "Sprite",
+	"sid": 675583081675803,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"heroBlack2",
+		"heroBlack"
+	]
+}

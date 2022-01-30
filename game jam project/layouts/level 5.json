@@ -193,7 +193,7 @@
 					"type": "obstacleBlack",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "on",
+						"initial-animation": "off",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -686,50 +686,6 @@
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
-				{
-					"type": "hero",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 90,
-					"instanceVariables": {},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 550,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": true,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1008,
-						"y": 96,
-						"width": 50,
-						"height": 88,
-						"originX": 0.5,
-						"originY": 0.9204545454545454,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
 				{
 					"type": "heroBlack",
 					"properties": {
