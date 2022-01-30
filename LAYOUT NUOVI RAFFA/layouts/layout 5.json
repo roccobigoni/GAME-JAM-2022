@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite",
+					"type": "Sprite3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -15,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 50,
+					"uid": 38,
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
@@ -34,10 +34,10 @@
 						}
 					},
 					"world": {
-						"x": 650,
-						"y": 246,
-						"width": 467,
-						"height": 598,
+						"x": 384,
+						"y": 275,
+						"width": 911,
+						"height": 549,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -51,171 +51,37 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "textstart",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 49,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Acqua": {
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 3,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
-					"world": {
-						"x": 113,
-						"y": 226,
-						"width": 54.338443835576506,
-						"height": 65.04902409781039,
-						"originX": 0.5,
-						"originY": 0.5,
+						"text": "Press any key to restart",
+						"enable-bbcode": true,
+						"font": "Multicolore-Regular",
+						"size": 20,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
 						"color": [
-							1,
-							1,
-							1,
+							0,
+							0,
+							0,
 							1
 						],
-						"angle": 4.7349878721653145,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite4",
-					"properties": {
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left"
 					},
-					"uid": 52,
+					"uid": 39,
 					"instanceVariables": {},
 					"behaviors": {},
-					"effects": {
-						"Acqua": {
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 3,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
 					"world": {
-						"x": 203,
-						"y": 163,
-						"width": 54.338443835576506,
-						"height": 65.04902409781039,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.7349878721653145,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite4",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 53,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Acqua": {
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 3,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
-					"world": {
-						"x": 290,
-						"y": 229,
-						"width": 54.338443835576506,
-						"height": 65.04902409781039,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.7349878721653145,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite3",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 54,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Acqua": {
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 3,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
-					"world": {
-						"x": 542,
-						"y": 224,
-						"width": 63,
-						"height": 51,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 181,
+						"y": 260,
+						"width": 436,
+						"height": 84,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -227,83 +93,37 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "gameover",
 					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 55,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Acqua": {
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 3,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
-					"world": {
-						"x": 644.5,
-						"y": 159,
-						"width": 68,
-						"height": 54,
-						"originX": 0.5,
-						"originY": 0.5,
+						"text": "GAME OVER",
+						"enable-bbcode": true,
+						"font": "Multicolore-Regular",
+						"size": 40,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
 						"color": [
-							1,
-							1,
-							1,
+							0,
+							0,
+							0,
 							1
 						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite3",
-					"properties": {
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"origin": "top-left"
 					},
-					"uid": 56,
+					"uid": 40,
 					"instanceVariables": {},
 					"behaviors": {},
-					"effects": {
-						"Acqua": {
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 3,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
 					"world": {
-						"x": 731,
-						"y": 222,
-						"width": 68,
-						"height": 55,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 216,
+						"y": 198,
+						"width": 409,
+						"height": 76,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
@@ -315,7 +135,7 @@
 					}
 				}
 			],
-			"sid": 380845242935158,
+			"sid": 169479367672100,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -343,7 +163,7 @@
 			"global": false
 		}
 	],
-	"sid": 461759639720244,
+	"sid": 977150962663211,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -352,5 +172,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": null
+	"eventSheet": "Foglio evento 5"
 }

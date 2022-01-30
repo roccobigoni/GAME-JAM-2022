@@ -1,0 +1,60 @@
+{
+	"name": "Foglio evento 4",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 982760160629840,
+					"parameters": {
+						"object": "menu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 599969125345770,
+					"parameters": {
+						"object-to-create": "Particelle",
+						"layer": "0",
+						"x": "415",
+						"y": "247",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 103265589642916
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 442055628499859,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "menu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 303226576391321,
+					"parameters": {
+						"layout": "\"level 1\""
+					}
+				}
+			],
+			"sid": 863022660410922
+		}
+	],
+	"sid": 649002549078832
+}

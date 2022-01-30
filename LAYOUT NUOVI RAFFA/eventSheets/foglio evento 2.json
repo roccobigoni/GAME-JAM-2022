@@ -1,0 +1,58 @@
+{
+	"name": "Foglio evento 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 263367594632911,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "exit"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 131557914948426,
+					"parameters": {
+						"layout": "\"menù\""
+					}
+				}
+			],
+			"sid": 266718573358572
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 465659976585147,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "RESUME"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 618221947170794,
+					"parameters": {
+						"which": "previous"
+					}
+				}
+			],
+			"sid": 879344955769062
+		}
+	],
+	"sid": 428187279730313
+}
