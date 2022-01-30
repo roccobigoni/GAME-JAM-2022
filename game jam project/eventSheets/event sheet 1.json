@@ -847,6 +847,30 @@
 						}
 					],
 					"sid": 975902423814982
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 505189182138087
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 295732700168763,
+							"parameters": {
+								"audio-file": "prima scelta music",
+								"loop": "looping",
+								"volume": "-5",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 446241750998834
 				}
 			],
 			"sid": 376238524262128
