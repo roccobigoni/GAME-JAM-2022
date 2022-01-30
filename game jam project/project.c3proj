@@ -75,7 +75,11 @@
 			"waterInBlack",
 			"Keyboard",
 			"obstacleWhite",
-			"obstacleWhite2"
+			"obstacleWhite2",
+			"leve",
+			"door",
+			"coin",
+			"coin2"
 		],
 		"subfolders": []
 	},
@@ -87,8 +91,11 @@
 	},
 	"layouts": {
 		"items": [
-			"First Level",
-			"Last level"
+			"level 1",
+			"Last level",
+			"level 2",
+			"level 3",
+			"level 4"
 		],
 		"subfolders": []
 	},

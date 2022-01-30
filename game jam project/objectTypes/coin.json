@@ -1,34 +1,41 @@
 {
-	"name": "obstacleWhite2",
+	"name": "coin",
 	"plugin-id": "Sprite",
-	"sid": 800058810293928,
+	"sid": 434563650489364,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
-	"effectTypes": [
-		{
-			"effectId": "waterbg",
-			"name": "WaterBackground"
-		}
-	],
+	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 64,
-						"height": 64,
-						"originX": 0.5,
+						"width": 33,
+						"height": 34,
+						"originX": 0.5151515151515151,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2337236,
+						"imageSpriteId": 2817945,
+						"collisionPoly": {
+							"points": [
+								0.030303030303030304,
+								0.029411764705882353,
+								1,
+								0.029411764705882353,
+								1,
+								0.9705882352941176,
+								0.030303030303030304,
+								0.9705882352941176
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 586137084797366,
+				"sid": 959572510256984,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
