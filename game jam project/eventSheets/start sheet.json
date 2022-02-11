@@ -1,26 +1,22 @@
 {
-	"name": "Foglio evento 1",
+	"name": "start sheet",
 	"events": [
 		{
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-click",
-					"objectClass": "mouse",
-					"sid": 345583060079449,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked"
-					}
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 831558274257126
 				}
 			],
 			"actions": [
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 818235293278611,
+					"sid": 908691593641374,
 					"parameters": {
-						"layout": "Layout 2"
+						"layout": "start comand layout"
 					}
 				}
 			],

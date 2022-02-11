@@ -5,13 +5,9 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-click",
-					"objectClass": "mouse",
-					"sid": 992274735507479,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked"
-					}
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 789503577842465
 				}
 			],
 			"actions": [

@@ -1,7 +1,7 @@
 {
-	"name": "Sprite",
+	"name": "obastacletext2",
 	"plugin-id": "Sprite",
-	"sid": 277945355072803,
+	"sid": 617840681220763,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -23,7 +23,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6049404,
+						"imageSpriteId": 4330314,
 						"collisionPoly": {
 							"points": [
 								0.003968253968253968,
@@ -40,7 +40,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 428503561640135,
+				"sid": 279865245979020,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

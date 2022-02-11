@@ -1,5 +1,5 @@
 {
-	"name": "Layout 1",
+	"name": "start",
 	"layers": [
 		{
 			"name": "Layer 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite3",
+					"type": "obastacletext2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -51,7 +51,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "obastacletext2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -95,7 +95,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "obstacletext",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -112,7 +112,7 @@
 								"speed": 0.1,
 								"x-speed": 0.3,
 								"y-speed": 0.3,
-								"intensity": 3,
+								"intensity": 2,
 								"frequency": 4,
 								"angle": 7,
 								"delta": 20,
@@ -122,10 +122,10 @@
 						}
 					},
 					"world": {
-						"x": 455,
-						"y": 249,
-						"width": 338.01172014177916,
-						"height": 1098.965842740167,
+						"x": 600.9833273735592,
+						"y": 367.13814168444605,
+						"width": 842.550228656269,
+						"height": 1485.1178319768635,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -164,9 +164,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 259,
-						"y": 237,
-						"width": 419,
+						"x": 423,
+						"y": 414,
+						"width": 378,
 						"height": 44,
 						"originX": 0,
 						"originY": 0,
@@ -206,9 +206,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 350,
-						"y": 148,
-						"width": 204,
+						"x": 520,
+						"y": 323,
+						"width": 162,
 						"height": 75,
 						"originX": 0,
 						"originY": 0,
@@ -260,5 +260,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Foglio evento 1"
+	"eventSheet": "start sheet"
 }

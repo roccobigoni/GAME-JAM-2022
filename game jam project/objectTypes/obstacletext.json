@@ -1,7 +1,7 @@
 {
-	"name": "Sprite4",
+	"name": "obstacletext",
 	"plugin-id": "Sprite",
-	"sid": 842934648413621,
+	"sid": 277945355072803,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -23,7 +23,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2808651,
+						"imageSpriteId": 6049404,
 						"collisionPoly": {
 							"points": [
 								0.003968253968253968,
@@ -40,7 +40,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 925343933961452,
+				"sid": 428503561640135,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

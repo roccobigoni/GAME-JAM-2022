@@ -1,5 +1,5 @@
 {
-	"name": "TUTORIAL EVENT",
+	"name": "score coins sheet",
 	"events": [
 		{
 			"eventType": "variable",
@@ -71,7 +71,30 @@
 					}
 				}
 			],
-			"actions": [],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "coin",
+					"sid": 679716021599647
+				},
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 320596674710159,
+					"parameters": {
+						"variable": "coins",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "txtscore",
+					"sid": 576263475617030,
+					"parameters": {
+						"text": "\"score: \" & coins"
+					}
+				}
+			],
 			"sid": 323695682769825
 		},
 		{
@@ -99,6 +122,31 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "every-x-seconds",
+					"objectClass": "System",
+					"sid": 603136063640137,
+					"parameters": {
+						"interval-seconds": "2.0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 242542531897399,
+					"parameters": {
+						"variable": "timescore",
+						"value": "20"
+					}
+				}
+			],
+			"sid": 986672752371488
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-destroyed",
 					"objectClass": "heroBlack",
 					"sid": 889959973042356
@@ -114,33 +162,7 @@
 					}
 				}
 			],
-			"sid": 783358314794552,
-			"disabled": true
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "every-x-seconds",
-					"objectClass": "System",
-					"sid": 779611019244213,
-					"parameters": {
-						"interval-seconds": "5.0"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "add-to-eventvar",
-					"objectClass": "System",
-					"sid": 571251818940572,
-					"parameters": {
-						"variable": "timescore",
-						"value": "20"
-					}
-				}
-			],
-			"sid": 308890443594596
+			"sid": 783358314794552
 		}
 	],
 	"sid": 883172276334615
