@@ -137,9 +137,42 @@
 						"angle": 4.7113303389655545,
 						"zElevation": 0
 					}
-				},
+				}
+			],
+			"sid": 279611989826365,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				1,
+				1,
+				1,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		},
+		{
+			"name": "GUI",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
 				{
-					"type": "menu",
+					"type": "keyToEntry",
 					"properties": {
 						"text": "Press any key to play",
 						"enable-bbcode": true,
@@ -223,7 +256,7 @@
 					}
 				}
 			],
-			"sid": 279611989826365,
+			"sid": 708519803869101,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -233,12 +266,12 @@
 				1
 			],
 			"backgroundColor": [
-				1,
-				1,
-				1,
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
 				1
 			],
-			"isTransparent": false,
+			"isTransparent": true,
 			"parallaxX": 1,
 			"parallaxY": 1,
 			"scaleRate": 1,

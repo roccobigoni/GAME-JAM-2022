@@ -255,12 +255,12 @@
 			"global": false
 		},
 		{
-			"name": "text",
+			"name": "GUI",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "textstart",
+					"type": "pressKeyToRestart",
 					"properties": {
 						"text": "Press any key to restart",
 						"enable-bbcode": true,
@@ -381,5 +381,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Foglio evento 3"
+	"eventSheet": "game over sheet"
 }

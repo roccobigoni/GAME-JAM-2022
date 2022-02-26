@@ -1,5 +1,5 @@
 {
-	"name": "Event sheet 1",
+	"name": "levels sheet",
 	"events": [
 		{
 			"eventType": "group",
@@ -324,138 +324,6 @@
 				}
 			],
 			"sid": 586178895488778
-		},
-		{
-			"eventType": "group",
-			"disabled": false,
-			"title": "introduction layout",
-			"description": "",
-			"isActiveOnStart": true,
-			"children": [
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "heroBlack",
-							"sid": 102473236300068,
-							"parameters": {
-								"object": "obstacleBlack"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "obstacleBlack",
-							"sid": 681359199133151,
-							"parameters": {
-								"animation": "\"on\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 551600933370420
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-y",
-							"objectClass": "heros",
-							"sid": 343650903781060,
-							"parameters": {
-								"comparison": 5,
-								"y-co-ordinate": "800"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 336484055781366,
-							"parameters": {
-								"layout": "level 1"
-							}
-						}
-					],
-					"sid": 102366418424675
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-collision-with-another-object",
-							"objectClass": "heroBlack2",
-							"sid": 800668459158323,
-							"parameters": {
-								"object": "obstacleBlack2"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "obstacleBlack2",
-							"sid": 851362999188803,
-							"parameters": {
-								"animation": "\"on\"",
-								"from": "beginning"
-							}
-						}
-					],
-					"sid": 567302687629202
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "is-animation-playing",
-							"objectClass": "obstacleBlack2",
-							"sid": 347627691785863,
-							"parameters": {
-								"animation": "\"on\""
-							}
-						},
-						{
-							"id": "is-animation-playing",
-							"objectClass": "obstacleBlack",
-							"sid": 641039773031391,
-							"parameters": {
-								"animation": "\"on\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "obstacleBlack2",
-							"sid": 709362139700317
-						},
-						{
-							"id": "destroy",
-							"objectClass": "obstacleBlack",
-							"sid": 521738566833639
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 537784762470494,
-							"parameters": {
-								"seconds": "0.5"
-							}
-						},
-						{
-							"id": "destroy",
-							"objectClass": "Tilemap",
-							"sid": 940662034868495
-						}
-					],
-					"sid": 810531472398958
-				}
-			],
-			"sid": 496909209698471
 		},
 		{
 			"eventType": "group",
@@ -847,30 +715,6 @@
 						}
 					],
 					"sid": 975902423814982
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-start-of-layout",
-							"objectClass": "System",
-							"sid": 505189182138087
-						}
-					],
-					"actions": [
-						{
-							"id": "play",
-							"objectClass": "Audio",
-							"sid": 295732700168763,
-							"parameters": {
-								"audio-file": "prima scelta music",
-								"loop": "looping",
-								"volume": "-5",
-								"tag-optional": "\"\""
-							}
-						}
-					],
-					"sid": 446241750998834
 				}
 			],
 			"sid": 376238524262128
@@ -905,31 +749,6 @@
 						}
 					],
 					"sid": 821792906135645
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-y",
-							"objectClass": "heros",
-							"sid": 323855289329754,
-							"parameters": {
-								"comparison": 5,
-								"y-co-ordinate": "800"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 578793022650563,
-							"parameters": {
-								"layout": "level 2"
-							}
-						}
-					],
-					"sid": 415307151922127
 				},
 				{
 					"eventType": "block",
@@ -1191,6 +1010,141 @@
 				}
 			],
 			"sid": 279457295478977
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Level Changes",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "heros",
+							"sid": 358014855166092,
+							"parameters": {
+								"comparison": 5,
+								"y-co-ordinate": "860"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 282456796965176,
+							"parameters": {
+								"layout": "level 2"
+							}
+						}
+					],
+					"sid": 917768865621588
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "heros",
+							"sid": 489986553504239,
+							"parameters": {
+								"comparison": 5,
+								"y-co-ordinate": "850"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 772298078341694,
+							"parameters": {
+								"layout": "level 3"
+							}
+						}
+					],
+					"sid": 417886262865117
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "heros",
+							"sid": 910978359546767,
+							"parameters": {
+								"comparison": 5,
+								"y-co-ordinate": "840"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 318500030880002,
+							"parameters": {
+								"layout": "level 4"
+							}
+						}
+					],
+					"sid": 761847276334007
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "heros",
+							"sid": 874436662108310,
+							"parameters": {
+								"comparison": 5,
+								"y-co-ordinate": "830"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 214802410016665,
+							"parameters": {
+								"layout": "level 5"
+							}
+						}
+					],
+					"sid": 460138605426982
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "heros",
+							"sid": 838025920997030,
+							"parameters": {
+								"comparison": 5,
+								"y-co-ordinate": "820"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 798500669998335,
+							"parameters": {
+								"layout": "level 6"
+							}
+						}
+					],
+					"sid": 210890699870072
+				}
+			],
+			"sid": 839943317695542
 		}
 	],
 	"sid": 916420559192232

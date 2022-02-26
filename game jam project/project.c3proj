@@ -133,7 +133,7 @@
 			"Tilemap",
 			"TiledBackgroundBlack",
 			"TiledBackground2White",
-			"obstacleBlack",
+			"buttonWhite",
 			"heroBlack",
 			"waterInBlack",
 			"Keyboard",
@@ -145,26 +145,29 @@
 			"door2",
 			"levaWhite",
 			"enemy",
-			"obstacleBlack2",
+			"buttonBlack",
 			"heroBlack2",
 			"blackSea",
 			"Audio",
 			"wall",
 			"wall2",
 			"splash",
-			"txtscore",
+			"cointxt",
 			"Score",
 			"obastacletext2",
 			"obstacletext",
-			"menu",
+			"keyToEntry",
 			"title",
 			"obstacletext4",
 			"obstacletext3",
 			"controls",
 			"controlsarrow",
-			"textstart",
+			"pressKeyToRestart",
 			"gameover",
-			"mouse"
+			"mouse",
+			"arrowWhite",
+			"goDownIndication",
+			"goDownIndicationWhite"
 		],
 		"subfolders": []
 	},
@@ -192,11 +195,10 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1",
-			"score coins sheet",
+			"levels sheet",
 			"start sheet",
-			"Foglio evento 2",
-			"Foglio evento 3"
+			"game over sheet",
+			"introduction layout sheet"
 		],
 		"subfolders": []
 	},
