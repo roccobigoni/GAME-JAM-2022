@@ -5,6 +5,60 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 792115279857034,
+					"parameters": {
+						"variable": "coins",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 769620676034898,
+					"parameters": {
+						"variable": "coins",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 764367092185992
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 154747271123724,
+					"parameters": {
+						"variable": "score",
+						"comparison": 4,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 583005759753168,
+					"parameters": {
+						"variable": "score",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 681167469722863
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-any-key-pressed",
 					"objectClass": "Keyboard",
 					"sid": 598569371675969

@@ -13,30 +13,18 @@
 					{
 						"width": 212,
 						"height": 494,
-						"originX": 0.47641509433962265,
-						"originY": 0.4898785425101215,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 						"imageSpriteId": 5350990,
-						"collisionPoly": {
-							"points": [
-								0.47641509433962265,
-								0.004048582995951417,
-								0.7264150943396226,
-								0.4898785425101215,
-								0.47641509433962265,
-								0.9939271255060729,
-								0.2688679245283019,
-								0.4898785425101215
-							]
-						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
 				"sid": 902596489759960,
-				"name": "Animation 1",
+				"name": "closed",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
@@ -48,32 +36,20 @@
 					{
 						"width": 212,
 						"height": 494,
-						"originX": 0.47641509433962265,
-						"originY": 0.4898785425101215,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 						"imageSpriteId": 6978924,
-						"collisionPoly": {
-							"points": [
-								0.47641509433962265,
-								0.004048582995951417,
-								0.7264150943396226,
-								0.4898785425101215,
-								0.47641509433962265,
-								0.9939271255060729,
-								0.2688679245283019,
-								0.4898785425101215
-							]
-						},
 						"useCollisionPoly": true,
 						"duration": 1
 					},
 					{
 						"width": 212,
 						"height": 494,
-						"originX": 0.47641509433962265,
-						"originY": 0.4898785425101215,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -84,8 +60,8 @@
 					{
 						"width": 212,
 						"height": 494,
-						"originX": 0.47641509433962265,
-						"originY": 0.4898785425101215,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -96,8 +72,8 @@
 					{
 						"width": 212,
 						"height": 494,
-						"originX": 0.47641509433962265,
-						"originY": 0.4898785425101215,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -108,8 +84,8 @@
 					{
 						"width": 212,
 						"height": 494,
-						"originX": 0.47641509433962265,
-						"originY": 0.4898785425101215,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -120,8 +96,8 @@
 					{
 						"width": 212,
 						"height": 494,
-						"originX": 0.47641509433962265,
-						"originY": 0.4898785425101215,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -131,7 +107,7 @@
 					}
 				],
 				"sid": 105518347200806,
-				"name": "[Animation 1]2",
+				"name": "open",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

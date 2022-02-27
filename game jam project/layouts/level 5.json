@@ -222,7 +222,7 @@
 					"type": "door2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "open",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -235,8 +235,8 @@
 						"y": 408.10385352980705,
 						"width": 48,
 						"height": 112,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.49056603773584906,
+						"originY": 0.9595141700404858,
 						"color": [
 							1,
 							1,
@@ -251,7 +251,7 @@
 					"type": "door2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "open",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -264,8 +264,8 @@
 						"y": 408.034617843269,
 						"width": 48,
 						"height": 112,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.49056603773584906,
+						"originY": 0.9595141700404858,
 						"color": [
 							1,
 							1,
@@ -280,7 +280,7 @@
 					"type": "door2",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "open",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -293,8 +293,8 @@
 						"y": 408,
 						"width": 48,
 						"height": 112,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.49056603773584906,
+						"originY": 0.9595141700404858,
 						"color": [
 							1,
 							1,
@@ -580,11 +580,11 @@
 					"behaviors": {},
 					"world": {
 						"x": 1216,
-						"y": 256,
+						"y": 272,
 						"width": -64,
 						"height": 48,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
 						"color": [
 							1,
 							1,
@@ -609,11 +609,11 @@
 					"behaviors": {},
 					"world": {
 						"x": 1216,
-						"y": 480,
+						"y": 496,
 						"width": -64,
 						"height": 48,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
 						"color": [
 							1,
 							1,
@@ -638,11 +638,11 @@
 					"behaviors": {},
 					"world": {
 						"x": 752,
-						"y": 480,
+						"y": 496,
 						"width": 64,
 						"height": 48,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
 						"color": [
 							1,
 							1,

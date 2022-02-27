@@ -4,6 +4,129 @@
 		{
 			"eventType": "group",
 			"disabled": false,
+			"title": "introduction layout",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack",
+							"sid": 427218466130304,
+							"parameters": {
+								"object": "buttonWhite"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "buttonWhite",
+							"sid": 168062713461123,
+							"parameters": {
+								"animation": "\"on\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 986046989515239
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack2",
+							"sid": 494172930826021,
+							"parameters": {
+								"object": "buttonBlack"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "buttonBlack",
+							"sid": 610669863612280,
+							"parameters": {
+								"animation": "\"on\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 756988900642262
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "buttonBlack",
+							"sid": 515555240616314,
+							"parameters": {
+								"animation": "\"on\""
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "buttonWhite",
+							"sid": 809480066875738,
+							"parameters": {
+								"animation": "\"on\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "buttonBlack",
+							"sid": 515767067122692
+						},
+						{
+							"id": "destroy",
+							"objectClass": "buttonWhite",
+							"sid": 101221460841150
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 634909305599939,
+							"parameters": {
+								"seconds": "0.5"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Tilemap",
+							"sid": 570712614729036
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 796153595124184,
+							"parameters": {
+								"seconds": "0.5"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 221906028767159,
+							"parameters": {
+								"layout": "level 1"
+							}
+						}
+					],
+					"sid": 296884664156281
+				}
+			],
+			"sid": 537148242568295
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
 			"title": "comandi characters",
 			"description": "",
 			"isActiveOnStart": true,
@@ -448,11 +571,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 384868639225837,
+							"sid": 523568378898535,
 							"parameters": {
 								"audio-file": "walk . watermp3",
 								"loop": "looping",
-								"volume": "-3",
+								"volume": "-4",
 								"tag-optional": "\"walk\""
 							}
 						}
@@ -475,11 +598,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 747578439138746,
+							"sid": 442097656828132,
 							"parameters": {
 								"audio-file": "walk . watermp3",
 								"loop": "looping",
-								"volume": "-3",
+								"volume": "-4",
 								"tag-optional": "\"walk\""
 							}
 						}
@@ -550,11 +673,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 928270434477632,
+							"sid": 912431776744163,
 							"parameters": {
 								"audio-file": "walk water freq. alto",
 								"loop": "looping",
-								"volume": "-3",
+								"volume": "-4",
 								"tag-optional": "\"walk a\"\n\n"
 							}
 						}
@@ -577,11 +700,11 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 590482245903907,
+							"sid": 355696269774494,
 							"parameters": {
 								"audio-file": "walk water freq. alto",
 								"loop": "looping",
-								"volume": "-3",
+								"volume": "-4",
 								"tag-optional": "\"walk a\""
 							}
 						}
@@ -1007,9 +1130,368 @@
 						}
 					],
 					"sid": 545755653729721
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "heroBlack2",
+							"sid": 196745791135785,
+							"parameters": {
+								"comparison": 4,
+								"y-co-ordinate": "747"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "heroBlack",
+							"sid": 161128406460507,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "heroBlack2",
+							"sid": 215609915279849,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 888509387837723,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack2",
+							"sid": 819305035104619
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack",
+							"sid": 783765301933266
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 782982605540842,
+							"parameters": {
+								"layout": "game over"
+							}
+						}
+					],
+					"sid": 657263479554719
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-y",
+							"objectClass": "heroBlack",
+							"sid": 364860667315348,
+							"parameters": {
+								"comparison": 4,
+								"y-co-ordinate": "747"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "heroBlack",
+							"sid": 627800676533383,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "heroBlack2",
+							"sid": 828864794274960,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 112594976780541,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack2",
+							"sid": 326787166138458
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack",
+							"sid": 480994096461846
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 950844836519876,
+							"parameters": {
+								"layout": "game over"
+							}
+						}
+					],
+					"sid": 754557108440752
 				}
 			],
 			"sid": 279457295478977
+		},
+		{
+			"eventType": "variable",
+			"name": "coins",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 649369222437910
+		},
+		{
+			"eventType": "variable",
+			"name": "score",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 466270223656683
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Coins Score GUI levels",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "blackSea",
+							"sid": 396781676498507,
+							"parameters": {
+								"object": "cointxt"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "cointxt",
+							"sid": 413776685963893,
+							"parameters": {
+								"color": "rgbEx(255, 255, 255)"
+							}
+						}
+					],
+					"sid": 366929695050500
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "blackSea",
+							"sid": 527416478227558,
+							"parameters": {
+								"object": "Score"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-font-color",
+							"objectClass": "Score",
+							"sid": 593818995896486,
+							"parameters": {
+								"color": "rgbEx(0,0,0)"
+							}
+						}
+					],
+					"sid": 222133217287228
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 804027354957764
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "cointxt",
+							"sid": 786741482309395,
+							"parameters": {
+								"text": "\"Coins:\" & coins"
+							}
+						}
+					],
+					"sid": 956816520873332
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 920878250355938
+						}
+					],
+					"actions": [
+						{
+							"id": "set-text",
+							"objectClass": "Score",
+							"sid": 948397049138145,
+							"parameters": {
+								"text": "\"Score:\" & score"
+							}
+						}
+					],
+					"sid": 786268392132617
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack",
+							"sid": 791639249278009,
+							"parameters": {
+								"object": "coin2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "coin2",
+							"sid": 789211458912235
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 180792058652963,
+							"parameters": {
+								"variable": "coins",
+								"value": "10"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "cointxt",
+							"sid": 680882203468110,
+							"parameters": {
+								"text": "\"Coins:\" & coins"
+							}
+						}
+					],
+					"sid": 509418194803013
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack2",
+							"sid": 446887331360971,
+							"parameters": {
+								"object": "coin"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "coin",
+							"sid": 263685136814255
+						},
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 761634208857960,
+							"parameters": {
+								"variable": "coins",
+								"value": "10"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "cointxt",
+							"sid": 752788373477913,
+							"parameters": {
+								"text": "\"Coins:\" & coins"
+							}
+						}
+					],
+					"sid": 184649730789921
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 371840953776326,
+							"parameters": {
+								"interval-seconds": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-to-eventvar",
+							"objectClass": "System",
+							"sid": 781894210298080,
+							"parameters": {
+								"variable": "score",
+								"value": "100"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Score",
+							"sid": 798554243581812,
+							"parameters": {
+								"text": "\"Score:\" & score"
+							}
+						}
+					],
+					"sid": 216287907749849
+				}
+			],
+			"sid": 229358462687049
 		},
 		{
 			"eventType": "group",
@@ -1022,129 +1504,109 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-y",
-							"objectClass": "heros",
-							"sid": 358014855166092,
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack",
+							"sid": 170919023724224,
 							"parameters": {
-								"comparison": 5,
-								"y-co-ordinate": "860"
+								"object": "starNewLevelblack"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
+							"id": "destroy",
+							"objectClass": "starNewLevelblack",
+							"sid": 807434988289848
+						},
+						{
+							"id": "go-to-nextprevious-layout",
 							"objectClass": "System",
-							"sid": 282456796965176,
+							"sid": 842423048440461,
 							"parameters": {
-								"layout": "level 2"
+								"which": "next"
 							}
 						}
 					],
-					"sid": 917768865621588
+					"sid": 140468132207114
 				},
 				{
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-y",
-							"objectClass": "heros",
-							"sid": 489986553504239,
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack2",
+							"sid": 388233611149750,
 							"parameters": {
-								"comparison": 5,
-								"y-co-ordinate": "850"
+								"object": "starNewLevel"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "go-to-layout",
+							"id": "destroy",
+							"objectClass": "starNewLevel",
+							"sid": 810202183549102
+						},
+						{
+							"id": "go-to-nextprevious-layout",
 							"objectClass": "System",
-							"sid": 772298078341694,
+							"sid": 761011659422045,
 							"parameters": {
-								"layout": "level 3"
+								"which": "next"
 							}
 						}
 					],
-					"sid": 417886262865117
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-y",
-							"objectClass": "heros",
-							"sid": 910978359546767,
-							"parameters": {
-								"comparison": 5,
-								"y-co-ordinate": "840"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 318500030880002,
-							"parameters": {
-								"layout": "level 4"
-							}
-						}
-					],
-					"sid": 761847276334007
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-y",
-							"objectClass": "heros",
-							"sid": 874436662108310,
-							"parameters": {
-								"comparison": 5,
-								"y-co-ordinate": "830"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 214802410016665,
-							"parameters": {
-								"layout": "level 5"
-							}
-						}
-					],
-					"sid": 460138605426982
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "compare-y",
-							"objectClass": "heros",
-							"sid": 838025920997030,
-							"parameters": {
-								"comparison": 5,
-								"y-co-ordinate": "820"
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 798500669998335,
-							"parameters": {
-								"layout": "level 6"
-							}
-						}
-					],
-					"sid": 210890699870072
+					"sid": 348434881048687
 				}
 			],
-			"sid": 839943317695542
+			"sid": 413721932313909
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 796283970360033
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "trigger",
+					"sid": 285937123589699,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 256152754202552
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "heroBlack",
+					"sid": 627994277197494,
+					"parameters": {
+						"object": "leva"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "leva",
+					"sid": 733225535048248,
+					"parameters": {
+						"animation": "\"action leva\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 270069234956579
 		}
 	],
 	"sid": 916420559192232

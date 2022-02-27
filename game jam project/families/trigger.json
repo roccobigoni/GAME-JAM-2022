@@ -1,0 +1,12 @@
+{
+	"name": "trigger",
+	"plugin-id": "Sprite",
+	"sid": 177066348120371,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"levaWhite",
+		"leva"
+	]
+}

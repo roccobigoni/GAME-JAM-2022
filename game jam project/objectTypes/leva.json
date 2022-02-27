@@ -1,5 +1,5 @@
 {
-	"name": "leve",
+	"name": "leva",
 	"plugin-id": "Sprite",
 	"sid": 604021669528904,
 	"isGlobal": false,
@@ -13,8 +13,43 @@
 					{
 						"width": 373,
 						"height": 241,
-						"originX": 0.5415549597855228,
-						"originY": 0.3236514522821577,
+						"originX": 0.5656836461126006,
+						"originY": 0.966804979253112,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1593752,
+						"collisionPoly": {
+							"points": [
+								0.5415549597855228,
+								0.3941908713692946,
+								0.28418230563002683,
+								0.3236514522821577,
+								0.5415549597855228,
+								0.9875518672199171,
+								0.1876675603217158,
+								0.3236514522821577
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 806051200972985,
+				"name": "idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 373,
+						"height": 241,
+						"originX": 0.5656836461126006,
+						"originY": 0.966804979253112,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -37,8 +72,8 @@
 					{
 						"width": 373,
 						"height": 241,
-						"originX": 0.5415549597855228,
-						"originY": 0.3236514522821577,
+						"originX": 0.5656836461126006,
+						"originY": 0.966804979253112,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -61,8 +96,8 @@
 					{
 						"width": 332,
 						"height": 271,
-						"originX": 0.48493975903614456,
-						"originY": 0.3985239852398524,
+						"originX": 0.5656836461126006,
+						"originY": 0.966804979253112,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -85,8 +120,8 @@
 					{
 						"width": 384,
 						"height": 249,
-						"originX": 0.4192708333333333,
-						"originY": 0.3453815261044177,
+						"originX": 0.5656836461126006,
+						"originY": 0.966804979253112,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -109,8 +144,8 @@
 					{
 						"width": 373,
 						"height": 241,
-						"originX": 0.4316353887399464,
-						"originY": 0.3236514522821577,
+						"originX": 0.5656836461126006,
+						"originY": 0.966804979253112,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -133,8 +168,8 @@
 					{
 						"width": 373,
 						"height": 241,
-						"originX": 0.4316353887399464,
-						"originY": 0.3236514522821577,
+						"originX": 0.5656836461126006,
+						"originY": 0.966804979253112,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -157,41 +192,6 @@
 				],
 				"sid": 482515020210311,
 				"name": "action leva",
-				"isLooping": false,
-				"isPingPong": false,
-				"repeatCount": 1,
-				"repeatTo": 0,
-				"speed": 5
-			},
-			{
-				"frames": [
-					{
-						"width": 373,
-						"height": 241,
-						"originX": 0.5415549597855228,
-						"originY": 0.3236514522821577,
-						"originalSource": "",
-						"exportFormat": "png",
-						"exportQuality": 0.8,
-						"imageSpriteId": 3870313,
-						"collisionPoly": {
-							"points": [
-								0.5415549597855228,
-								0.3941908713692946,
-								0.28418230563002683,
-								0.3236514522821577,
-								0.5415549597855228,
-								0.9875518672199171,
-								0.1876675603217158,
-								0.3236514522821577
-							]
-						},
-						"useCollisionPoly": true,
-						"duration": 1
-					}
-				],
-				"sid": 370749485768306,
-				"name": "[Animation 1]2",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

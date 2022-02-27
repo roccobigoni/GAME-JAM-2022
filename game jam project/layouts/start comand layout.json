@@ -383,8 +383,8 @@
 						}
 					},
 					"world": {
-						"x": 336,
-						"y": 176,
+						"x": 352,
+						"y": 224,
 						"width": 50,
 						"height": 88,
 						"originX": 0.5,
@@ -430,10 +430,10 @@
 						}
 					},
 					"world": {
-						"x": 944,
-						"y": 176,
+						"x": 912,
+						"y": 224,
 						"width": 48,
-						"height": 96,
+						"height": 80,
 						"originX": 0.5,
 						"originY": 0.9204545454545454,
 						"color": [
@@ -507,7 +507,7 @@
 						}
 					},
 					"world": {
-						"x": 240,
+						"x": 176,
 						"y": 112,
 						"width": 80,
 						"height": 288,
@@ -551,7 +551,7 @@
 						}
 					},
 					"world": {
-						"x": 1056,
+						"x": 1088,
 						"y": 112,
 						"width": 288,
 						"height": 80,
@@ -593,7 +593,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 112,
+						"x": 48,
 						"y": 96,
 						"width": 256,
 						"height": 16,
@@ -689,7 +689,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 928,
+						"x": 960,
 						"y": 96,
 						"width": 256,
 						"height": 16,
@@ -734,7 +734,7 @@
 					},
 					"world": {
 						"x": 496,
-						"y": 176,
+						"y": 144,
 						"width": 54.338443835576506,
 						"height": 65.04902409781039,
 						"originX": 0.5,
@@ -778,7 +778,7 @@
 					},
 					"world": {
 						"x": 544,
-						"y": 112,
+						"y": 80,
 						"width": 54.338443835576506,
 						"height": 65.04902409781039,
 						"originX": 0.5,
@@ -822,7 +822,7 @@
 					},
 					"world": {
 						"x": 608,
-						"y": 176,
+						"y": 144,
 						"width": 54.338443835576506,
 						"height": 65.04902409781039,
 						"originX": 0.5,
@@ -864,7 +864,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 528,
-						"y": 96,
+						"y": 64,
 						"width": 32,
 						"height": 32,
 						"originX": 0,
@@ -906,7 +906,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 480,
-						"y": 160,
+						"y": 128,
 						"width": 32,
 						"height": 32,
 						"originX": 0,
@@ -948,7 +948,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 592,
-						"y": 160,
+						"y": 128,
 						"width": 32,
 						"height": 32,
 						"originX": 0,
@@ -992,7 +992,7 @@
 					},
 					"world": {
 						"x": 720,
-						"y": 176,
+						"y": 144,
 						"width": 48,
 						"height": 48,
 						"originX": 0.5,
@@ -1036,7 +1036,7 @@
 					},
 					"world": {
 						"x": 768,
-						"y": 112,
+						"y": 80,
 						"width": 48,
 						"height": 48,
 						"originX": 0.5,
@@ -1080,7 +1080,7 @@
 					},
 					"world": {
 						"x": 816,
-						"y": 176,
+						"y": 144,
 						"width": 48,
 						"height": 48,
 						"originX": 0.5,
@@ -1109,7 +1109,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 720,
-						"y": 176,
+						"y": 144,
 						"width": 32,
 						"height": 32,
 						"originX": 0.5097014925373134,
@@ -1138,7 +1138,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 816,
-						"y": 176,
+						"y": 144,
 						"width": 32,
 						"height": 32,
 						"originX": 0.5097014925373134,
@@ -1167,7 +1167,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 768,
-						"y": 112,
+						"y": 80,
 						"width": 32,
 						"height": 32,
 						"originX": 0.5097014925373134,
@@ -1209,7 +1209,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 1264,
-						"y": 32,
+						"y": 16,
 						"width": 496,
 						"height": 32,
 						"originX": 1,
@@ -1262,5 +1262,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "orthographic",
-	"eventSheet": "introduction layout sheet"
+	"eventSheet": "levels sheet"
 }

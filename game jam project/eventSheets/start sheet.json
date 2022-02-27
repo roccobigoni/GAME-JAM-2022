@@ -35,11 +35,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 189446998649102,
+					"sid": 117764999971694,
 					"parameters": {
 						"audio-file": "prima scelta music",
 						"loop": "looping",
-						"volume": "-7",
+						"volume": "-8",
 						"tag-optional": "\"\""
 					}
 				}
