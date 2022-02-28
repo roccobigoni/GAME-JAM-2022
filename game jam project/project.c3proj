@@ -63,9 +63,25 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "jumpthru",
 			"name": "Jump-thru",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Physics",
+			"name": "Physics",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -111,6 +127,30 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "waterbg",
 			"name": "Water background",
@@ -123,6 +163,14 @@
 			"id": "water",
 			"name": "Water",
 			"author": "Viktor Korsun",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "glowvertical",
+			"name": "Glow vertical",
+			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
 		}
@@ -166,19 +214,37 @@
 			"gameover",
 			"mouse",
 			"arrowWhite",
-			"goDownIndication",
-			"goDownIndicationWhite",
+			"takeStars",
+			"takeStarsWhite",
 			"starNewLevel",
-			"starNewLevelblack"
+			"starNewLevelblack",
+			"waterBalls",
+			"waterBallsBlack",
+			"waterBallsParticel",
+			"waterBallsParticelBlack",
+			"waterTear",
+			"waterTearWhite",
+			"tower",
+			"towerWHITE",
+			"waterBallBoss"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [],
+	"containers": [
+		{
+			"members": [
+				"waterBalls",
+				"waterBallsParticel"
+			],
+			"selectMode": "normal"
+		}
+	],
 	"families": {
 		"items": [
 			"heros",
-			"trigger"
+			"trigger",
+			"TEARS"
 		],
 		"subfolders": []
 	},

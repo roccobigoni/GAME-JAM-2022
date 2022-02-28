@@ -1,0 +1,57 @@
+{
+	"name": "waterTearWhite",
+	"plugin-id": "Sprite",
+	"sid": 610493774856824,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 150,
+						"height": 150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5911661,
+						"collisionPoly": {
+							"points": [
+								0.29109913793103387,
+								0.4441810344827581,
+								0.3857570043103442,
+								0.29223060344827523,
+								0.43768857758620666,
+								0.1401616379310343,
+								0.5106896551724138,
+								0.15159482758620685,
+								0.6639547413793101,
+								0.4690624999999997,
+								0.6533035714285716,
+								0.6346577380952388,
+								0.47281250000000025,
+								0.7247321428571433,
+								0.2856101190476192,
+								0.6290922619047624
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 508697316663202,
+				"name": "idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
