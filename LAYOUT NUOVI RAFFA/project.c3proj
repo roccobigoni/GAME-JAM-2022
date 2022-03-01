@@ -31,6 +31,30 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Sfondo affiancato",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particelle",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solido",
@@ -45,6 +69,14 @@
 			"author": "Viktor Korsun",
 			"version": "r276.2",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "waterbg",
+			"name": "Sfondo d'acqua",
+			"author": "Viktor Korsun",
+			"version": "r276.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "zesmw3kp31g",
@@ -52,15 +84,28 @@
 		"items": [
 			"Tilemap",
 			"Sprite",
-			"Sprite2",
 			"Sprite3",
 			"Sprite4",
 			"whiteCoins",
-			"Sprite5",
+			"whitelever",
 			"levaNera",
 			"porta",
 			"blackcoins",
-			"textstart"
+			"textstart",
+			"TiledBackground2White",
+			"pausa",
+			"RESUME",
+			"restart",
+			"exit",
+			"Mouse",
+			"menu",
+			"title",
+			"Particelle",
+			"arrow",
+			"Sprite6",
+			"controls",
+			"controlsarrow",
+			"gameover"
 		],
 		"subfolders": []
 	},
@@ -72,6 +117,8 @@
 	},
 	"layouts": {
 		"items": [
+			"game over",
+			"controls",
 			"Layout 1",
 			"Layout 2",
 			"Layout 3",
@@ -82,7 +129,11 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Foglio evento 1"
+			"Foglio evento 1",
+			"Foglio evento 2",
+			"Foglio evento 3",
+			"Foglio evento 4",
+			"Foglio evento 5"
 		],
 		"subfolders": []
 	},

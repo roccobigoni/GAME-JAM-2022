@@ -1,0 +1,48 @@
+{
+	"name": "blackSea",
+	"plugin-id": "Sprite",
+	"sid": 518834422894208,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 302650287688954
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "waterbg",
+			"name": "WaterBackground"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6932876,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 260989404624224,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

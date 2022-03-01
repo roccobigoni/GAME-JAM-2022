@@ -1,0 +1,120 @@
+{
+	"name": "door",
+	"plugin-id": "Sprite",
+	"sid": 424925014779966,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 212,
+						"height": 494,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5350990,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 902596489759960,
+				"name": "closed",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 212,
+						"height": 494,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6978924,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 212,
+						"height": 494,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2997754,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 212,
+						"height": 494,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9235160,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 212,
+						"height": 494,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3997674,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 212,
+						"height": 494,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1610180,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 212,
+						"height": 494,
+						"originX": 0.5,
+						"originY": 0.9838056680161943,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4007356,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 105518347200806,
+				"name": "open",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

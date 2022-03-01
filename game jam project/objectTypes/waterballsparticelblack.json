@@ -1,0 +1,20 @@
+{
+	"name": "waterBallsParticelBlack",
+	"plugin-id": "Particles",
+	"sid": 609454640948215,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2770870,
+		"useCollisionPoly": true
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"name": "obstacleWhite2",
+	"plugin-id": "Sprite",
+	"sid": 800058810293928,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [
+		{
+			"effectId": "waterbg",
+			"name": "WaterBackground"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2337236,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 586137084797366,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

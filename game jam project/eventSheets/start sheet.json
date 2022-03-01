@@ -1,0 +1,51 @@
+{
+	"name": "start sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 831558274257126
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 908691593641374,
+					"parameters": {
+						"layout": "start comand layout"
+					}
+				}
+			],
+			"sid": 160905707588299
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 876381997154119
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 117764999971694,
+					"parameters": {
+						"audio-file": "prima scelta music",
+						"loop": "looping",
+						"volume": "-8",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 929959286350318
+		}
+	],
+	"sid": 156985989292656
+}

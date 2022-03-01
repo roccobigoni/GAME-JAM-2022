@@ -1,0 +1,18 @@
+{
+	"name": "TEARS",
+	"plugin-id": "Sprite",
+	"sid": 247758593595520,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Physics",
+			"name": "Physics",
+			"sid": 411105294366405
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"waterTear",
+		"waterTearWhite"
+	]
+}

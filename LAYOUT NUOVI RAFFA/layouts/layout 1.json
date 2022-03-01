@@ -2,83 +2,6 @@
 	"name": "Layout 1",
 	"layers": [
 		{
-			"name": "Layer 1",
-			"overriden": 0,
-			"subLayers": [],
-			"instances": [
-				{
-					"type": "Sprite2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 4,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Acqua": {
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 3,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
-					"world": {
-						"x": 216.5,
-						"y": 255.5,
-						"width": 473,
-						"height": 601,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				}
-			],
-			"sid": 531870534613338,
-			"effectTypes": [],
-			"isInitiallyVisible": true,
-			"color": [
-				1,
-				1,
-				1,
-				1
-			],
-			"backgroundColor": [
-				1,
-				1,
-				1,
-				1
-			],
-			"isTransparent": true,
-			"parallaxX": 1,
-			"parallaxY": 1,
-			"scaleRate": 1,
-			"forceOwnTexture": false,
-			"renderingMode": "3d",
-			"drawOrder": "z-order",
-			"useRenderCells": false,
-			"blendMode": "normal",
-			"zElevation": 0,
-			"global": false
-		},
-		{
 			"name": "Layer 0",
 			"overriden": 0,
 			"subLayers": [],
@@ -92,7 +15,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 3,
+					"uid": 2,
 					"instanceVariables": {},
 					"behaviors": {},
 					"effects": {
@@ -111,10 +34,10 @@
 						}
 					},
 					"world": {
-						"x": 676,
-						"y": 263.5,
-						"width": 467,
-						"height": 598,
+						"x": 413.5,
+						"y": 238.5,
+						"width": 598.6682086073205,
+						"height": 950.7513045222357,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -123,62 +46,7 @@
 							1,
 							1
 						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Tilemap",
-					"properties": {
-						"initially-visible": true,
-						"tile-width": 16,
-						"tile-height": 16,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
-					},
-					"uid": 2,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solido": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"ownData": {
-						"tilemapData": {
-							"width": 106,
-							"height": 60,
-							"max-width": 117,
-							"max-height": 60,
-							"data": "371x0,1,10x0,1,48x0,1,10x0,1,41x0,4x1,3x0,1,10x0,1,41x0,1,2x0,1,3x0,1,10x0,1,41x0,1,2x0,1,3x0,1,10x0,1,41x0,1,2x0,1,3x0,1,10x0,1,41x0,1,2x0,1,3x0,1,10x0,1,3x0,1,37x0,1,2x0,1,3x0,1,3x0,3x1,4x0,1,3x0,1,37x0,1,2x0,1,3x0,1,3x0,1,10x0,1,37x0,1,2x0,1,3x0,1,3x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,10x0,1,40x0,1,7x0,1,51x0,1,7x0,1,51x0,1,7x0,1,59x0,1,467x0,5,22x0,5,36x0,5,22x0,5,36x0,5,7x0,5,14x0,5,36x0,5,7x0,5,14x0,5,36x0,5,7x0,5,14x0,5,36x0,5,7x0,6x5,9x0,5,36x0,5,2x0,5,4x0,5,4x0,5,9x0,5,36x0,5,2x0,5,9x0,5,9x0,5,36x0,5,2x0,5,9x0,5,9x0,5,36x0,5,2x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,49x0,5,9x0,5,59x0,5,4123x0"
-						},
-						"tile-width": 16,
-						"tile-height": 16,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
-					"world": {
-						"x": -1,
-						"y": -1,
-						"width": 1708,
-						"height": 960,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
+						"angle": 4.710495371677573,
 						"zElevation": 0
 					}
 				},
@@ -210,10 +78,10 @@
 						}
 					},
 					"world": {
-						"x": 741,
-						"y": 338,
-						"width": 135,
-						"height": 65,
+						"x": 413,
+						"y": 179,
+						"width": 184,
+						"height": 51,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -227,7 +95,91 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "pausa",
+					"properties": {
+						"text": "PAUSE",
+						"enable-bbcode": true,
+						"font": "Multicolore-Regular",
+						"size": 44,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 315,
+						"y": 35,
+						"width": 203,
+						"height": 108,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "RESUME",
+					"properties": {
+						"text": "Resume",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 332,
+						"y": 152,
+						"width": 160,
+						"height": 51,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -254,10 +206,10 @@
 						}
 					},
 					"world": {
-						"x": 72,
-						"y": 291,
-						"width": 52,
-						"height": 80,
+						"x": 410,
+						"y": 263,
+						"width": 184,
+						"height": 51,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -271,7 +223,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "Sprite3",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -298,10 +250,10 @@
 						}
 					},
 					"world": {
-						"x": 366,
-						"y": 344,
-						"width": 52,
-						"height": 80,
+						"x": 408,
+						"y": 354,
+						"width": 184,
+						"height": 51,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -310,12 +262,96 @@
 							1,
 							1
 						],
-						"angle": 3.140273144459271,
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "restart",
+					"properties": {
+						"text": "Restart",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 341,
+						"y": 239,
+						"width": 141,
+						"height": 46,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "exit",
+					"properties": {
+						"text": "Exit",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 30,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 369,
+						"y": 332,
+						"width": 81,
+						"height": 46,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}
 			],
-			"sid": 815109735748456,
+			"sid": 481055617178986,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -343,7 +379,7 @@
 			"global": false
 		}
 	],
-	"sid": 724753234247021,
+	"sid": 916572429158166,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 1708,
@@ -352,5 +388,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Foglio evento 1"
+	"eventSheet": null
 }
