@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 27602,
+	"savedWithRelease": 28500,
 	"name": "New project",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,7 +11,7 @@
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -19,7 +19,7 @@
 			"id": "TiledBg",
 			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -27,7 +27,7 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -35,7 +35,7 @@
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -43,7 +43,7 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -51,7 +51,7 @@
 			"id": "Text",
 			"name": "Text",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -59,7 +59,7 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -67,7 +67,7 @@
 			"id": "Particles",
 			"name": "Particles",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -75,7 +75,7 @@
 			"id": "jumpthru",
 			"name": "Jump-thru",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -83,7 +83,7 @@
 			"id": "Physics",
 			"name": "Physics",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -91,7 +91,7 @@
 			"id": "Platform",
 			"name": "Platform",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -99,7 +99,7 @@
 			"id": "Flash",
 			"name": "Flash",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -107,7 +107,7 @@
 			"id": "MoveTo",
 			"name": "Move To",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -115,7 +115,7 @@
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -123,7 +123,7 @@
 			"id": "Anchor",
 			"name": "Anchor",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -131,7 +131,7 @@
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -139,7 +139,7 @@
 			"id": "Turret",
 			"name": "Turret",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -147,7 +147,7 @@
 			"id": "Pathfinding",
 			"name": "Pathfinding",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -155,7 +155,7 @@
 			"id": "waterbg",
 			"name": "Water background",
 			"author": "Viktor Korsun",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -163,7 +163,7 @@
 			"id": "water",
 			"name": "Water",
 			"author": "Viktor Korsun",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -171,7 +171,7 @@
 			"id": "glowvertical",
 			"name": "Glow vertical",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		}
 	],
@@ -183,14 +183,12 @@
 			"TiledBackground2White",
 			"buttonWhite",
 			"heroBlack",
-			"waterInBlack",
+			"obstacleWaterWhite",
 			"Keyboard",
 			"obstacleWhite2",
 			"leva",
-			"door",
 			"coin",
 			"coin2",
-			"door2",
 			"levaWhite",
 			"enemy",
 			"buttonBlack",
@@ -203,11 +201,9 @@
 			"cointxt",
 			"Score",
 			"obastacletext2",
-			"obstacletext",
 			"keyToEntry",
 			"title",
-			"obstacletext4",
-			"obstacletext3",
+			"obstacleWaterBlack",
 			"controls",
 			"controlsarrow",
 			"pressKeyToRestart",
@@ -226,7 +222,12 @@
 			"waterTearWhite",
 			"tower",
 			"towerWHITE",
-			"waterBallBoss"
+			"waterBallBoss",
+			"doorsWhite",
+			"doorblack",
+			"door2",
+			"door2White",
+			"waterBallBossWhite"
 		],
 		"subfolders": []
 	},
@@ -276,7 +277,23 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "coin.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 951059168917794
+				},
+				{
+					"name": "game over.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 380029312975948
+				},
+				{
+					"name": "boss power creation.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 602256325405512
+				}
+			],
 			"subfolders": [
 				{
 					"items": [
@@ -489,6 +506,8 @@
 		"authorWebsite": "",
 		"appId": "",
 		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "high",

@@ -1,14 +1,14 @@
 {
-	"name": "door2",
+	"name": "door2White",
 	"plugin-id": "Sprite",
-	"sid": 141809762043240,
+	"sid": 139224988121264,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "solid",
 			"name": "Solid",
-			"sid": 168751063674595
+			"sid": 795410264115448
 		}
 	],
 	"effectTypes": [],
@@ -24,7 +24,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3848915,
+						"imageSpriteId": 7935516,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -48,7 +48,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 239843,
+						"imageSpriteId": 8895031,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -72,7 +72,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6777163,
+						"imageSpriteId": 4495253,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -96,7 +96,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6988622,
+						"imageSpriteId": 3076991,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -113,7 +113,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 443272406149761,
+				"sid": 265877219559347,
 				"name": "open",
 				"isLooping": false,
 				"isPingPong": false,
@@ -131,7 +131,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6259840,
+						"imageSpriteId": 2449148,
 						"collisionPoly": {
 							"points": [
 								0,
@@ -148,7 +148,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 676055738264177,
+				"sid": 658903453227459,
 				"name": "closed1",
 				"isLooping": false,
 				"isPingPong": false,

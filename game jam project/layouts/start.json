@@ -93,55 +93,12 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "obstacletext",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 131,
-					"instanceVariables": {},
-					"behaviors": {},
-					"effects": {
-						"Acqua": {
-							"parameters": {
-								"speed": 0.1,
-								"x-speed": 0.3,
-								"y-speed": 0.3,
-								"intensity": 2,
-								"frequency": 4,
-								"angle": 7,
-								"delta": 20,
-								"reflectivity": 400,
-								"emboss": 0.3
-							}
-						}
-					},
-					"world": {
-						"x": 600.9833273735592,
-						"y": 367.13814168444605,
-						"width": 842.550228656269,
-						"height": 1485.1178319768635,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 4.7113303389655545,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 279611989826365,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -259,6 +216,7 @@
 			"sid": 708519803869101,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,

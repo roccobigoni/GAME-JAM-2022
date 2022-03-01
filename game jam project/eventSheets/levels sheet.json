@@ -909,9 +909,9 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 201456615264983,
+							"sid": 789981632968062,
 							"parameters": {
-								"audio-file": "Wet splat 02",
+								"audio-file": "game over",
 								"loop": "not-looping",
 								"volume": "-1",
 								"tag-optional": "\"death hero by tears\""
@@ -949,9 +949,9 @@
 						{
 							"id": "play",
 							"objectClass": "Audio",
-							"sid": 264206731433329,
+							"sid": 259568897417184,
 							"parameters": {
-								"audio-file": "Wet splat 02",
+								"audio-file": "game over",
 								"loop": "not-looping",
 								"volume": "-1",
 								"tag-optional": "\"death hero by tears\""
@@ -972,6 +972,325 @@
 						}
 					],
 					"sid": 417402564941560
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "waterBallsBlack",
+							"sid": 276658270556135,
+							"parameters": {
+								"object": "heros"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 313960342117186,
+							"parameters": {
+								"audio-file": "game over",
+								"loop": "not-looping",
+								"volume": "-1",
+								"tag-optional": "\"death hero by tears\""
+							}
+						},
+						{
+							"id": "add-flanger-effect",
+							"objectClass": "Audio",
+							"sid": 800666470855975,
+							"parameters": {
+								"tag": "\"\"",
+								"delay": "-27",
+								"modulation": "21",
+								"frequency": "5",
+								"feedback": "3",
+								"mix": "100"
+							}
+						}
+					],
+					"sid": 313052202189811
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "waterBalls",
+							"sid": 413449296370112,
+							"parameters": {
+								"object": "heros"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 684312415703750,
+							"parameters": {
+								"audio-file": "game over",
+								"loop": "not-looping",
+								"volume": "-1",
+								"tag-optional": "\"death hero by tears\""
+							}
+						},
+						{
+							"id": "add-flanger-effect",
+							"objectClass": "Audio",
+							"sid": 996454734036949,
+							"parameters": {
+								"tag": "\"\"",
+								"delay": "-27",
+								"modulation": "21",
+								"frequency": "5",
+								"feedback": "3",
+								"mix": "100"
+							}
+						}
+					],
+					"sid": 142392741120753
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-shoot",
+							"objectClass": "tower",
+							"sid": 581978888632637,
+							"behaviorType": "Turret"
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 166337284377268,
+							"parameters": {
+								"audio-file": "Wet splat 01",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 671891278070017
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-shoot",
+							"objectClass": "towerWHITE",
+							"sid": 717875182603743,
+							"behaviorType": "Turret"
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 895636807984769,
+							"parameters": {
+								"audio-file": "Wet splat 01",
+								"loop": "not-looping",
+								"volume": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 596053580436974
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heros",
+							"sid": 485760945343308,
+							"parameters": {
+								"object": "coin"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 446779967374573,
+							"parameters": {
+								"audio-file": "coin",
+								"loop": "not-looping",
+								"volume": "-2",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 240729397023934
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heros",
+							"sid": 516779138207420,
+							"parameters": {
+								"object": "coin2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 974413435687265,
+							"parameters": {
+								"audio-file": "coin",
+								"loop": "not-looping",
+								"volume": "-2",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 315451175742069
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heros",
+							"sid": 503540404046642,
+							"parameters": {
+								"object": "obstacleWaterBlack"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 253255682907174,
+							"parameters": {
+								"audio-file": "game over",
+								"loop": "not-looping",
+								"volume": "-1",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 431172312899130
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heros",
+							"sid": 311036234061247,
+							"parameters": {
+								"object": "obstacleWaterWhite"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 879354664106281,
+							"parameters": {
+								"audio-file": "game over",
+								"loop": "not-looping",
+								"volume": "-1",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 399403259157534
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heros",
+							"sid": 579844133731094,
+							"parameters": {
+								"object": "waterBallBoss"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 598887786750431,
+							"parameters": {
+								"audio-file": "game over",
+								"loop": "not-looping",
+								"volume": "-1",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 148529234804231
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heros",
+							"sid": 115843359833315,
+							"parameters": {
+								"object": "waterBallBossWhite"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 691944622514373,
+							"parameters": {
+								"audio-file": "game over",
+								"loop": "not-looping",
+								"volume": "-1",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 543575615070465
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heros",
+							"sid": 235141353302163,
+							"parameters": {
+								"object": "blackSea"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 605864503864452,
+							"parameters": {
+								"audio-file": "game over",
+								"loop": "not-looping",
+								"volume": "-1",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 517167226673716
 				}
 			],
 			"sid": 376238524262128
@@ -1394,6 +1713,390 @@
 						}
 					],
 					"sid": 754557108440752
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack",
+							"sid": 493064161892716,
+							"parameters": {
+								"object": "waterBallsBlack"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "heroBlack",
+							"sid": 244562119523788,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "heroBlack2",
+							"sid": 503254827514904,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 638573693857430,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack2",
+							"sid": 843897315076525
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack",
+							"sid": 323331662437946
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 327987187099313,
+							"parameters": {
+								"layout": "game over"
+							}
+						}
+					],
+					"sid": 130652701949143
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack2",
+							"sid": 457420866115843,
+							"parameters": {
+								"object": "waterBalls"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "heroBlack2",
+							"sid": 493019989867029,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "heroBlack",
+							"sid": 690984731296231,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 194372859723512,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack2",
+							"sid": 533376984967650
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack",
+							"sid": 532939077315637
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 396059512280111,
+							"parameters": {
+								"layout": "game over"
+							}
+						}
+					],
+					"sid": 924587030719775
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack",
+							"sid": 430878818198944,
+							"parameters": {
+								"object": "waterBallBoss"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "heroBlack",
+							"sid": 579656973058515,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "heroBlack2",
+							"sid": 298258170791072,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 343353663550746,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack2",
+							"sid": 305774921772784
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack",
+							"sid": 928935454511449
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 102574587701412,
+							"parameters": {
+								"layout": "game over"
+							}
+						}
+					],
+					"sid": 319130809924113
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heroBlack2",
+							"sid": 516838016971155,
+							"parameters": {
+								"object": "waterBallBossWhite"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "heroBlack2",
+							"sid": 366252406777623,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "heroBlack",
+							"sid": 729739473598128,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 576607656854549,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack2",
+							"sid": 666576405188579
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack",
+							"sid": 237423736759322
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 102809071954273,
+							"parameters": {
+								"layout": "game over"
+							}
+						}
+					],
+					"sid": 470149000461162
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heros",
+							"sid": 828092402523752,
+							"parameters": {
+								"object": "obstacleWaterWhite"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "heroBlack",
+							"sid": 197880016224566,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "heroBlack2",
+							"sid": 365694264999300,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 726267265646426,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack2",
+							"sid": 725114448053958
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack",
+							"sid": 819288154549820
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 949879489356474,
+							"parameters": {
+								"layout": "game over"
+							}
+						}
+					],
+					"sid": 124481649518635
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "heros",
+							"sid": 392848359465108,
+							"parameters": {
+								"object": "obstacleWaterBlack"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "heroBlack",
+							"sid": 660662100121401,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "flash",
+							"objectClass": "heroBlack2",
+							"sid": 189207228938683,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 284111751919517,
+							"parameters": {
+								"seconds": "0.2"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack2",
+							"sid": 521717334947057
+						},
+						{
+							"id": "destroy",
+							"objectClass": "heroBlack",
+							"sid": 654617075191625
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 802812264917180,
+							"parameters": {
+								"layout": "game over"
+							}
+						}
+					],
+					"sid": 706584754208355
 				}
 			],
 			"sid": 279457295478977
@@ -2155,6 +2858,15 @@
 							"parameters": {
 								"animation": "\"black\""
 							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "enemy",
+							"sid": 110706966275597,
+							"parameters": {
+								"comparison": 0,
+								"number": "16"
+							}
 						}
 					],
 					"actions": [
@@ -2168,9 +2880,80 @@
 								"image-point": "0",
 								"create-hierarchy": false
 							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 204455846328903,
+							"parameters": {
+								"audio-file": "boss power creation",
+								"loop": "not-looping",
+								"volume": "-3",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "waterBallBoss",
+							"sid": 789963168888259,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "waterBallBoss",
+							"sid": 740365751202326,
+							"parameters": {
+								"where": "in-front",
+								"object": "enemy"
+							}
+						},
+						{
+							"id": "find-path",
+							"objectClass": "waterBallBoss",
+							"sid": 305236180893205,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"x": "heroBlack.X",
+								"y": "heroBlack.Y"
+							}
 						}
 					],
 					"sid": 376250180099333
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-path-found",
+							"objectClass": "waterBallBoss",
+							"sid": 309210603342762,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"actions": [
+						{
+							"id": "move-along-path",
+							"objectClass": "waterBallBoss",
+							"sid": 851958312465633,
+							"behaviorType": "Pathfinding"
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 626549639974362,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "waterBallBoss",
+							"sid": 731894888966408
+						}
+					],
+					"sid": 463371487051125
 				},
 				{
 					"eventType": "block",
@@ -2188,11 +2971,11 @@
 						{
 							"id": "move-to-position",
 							"objectClass": "enemy",
-							"sid": 563450451877563,
+							"sid": 719333424757086,
 							"behaviorType": "MoveTo",
 							"parameters": {
-								"x": "752",
-								"y": "enemy.Y",
+								"x": "990",
+								"y": "354",
 								"mode": "direct"
 							}
 						},
@@ -2212,6 +2995,113 @@
 					"eventType": "block",
 					"conditions": [
 						{
+							"id": "is-animation-playing",
+							"objectClass": "enemy",
+							"sid": 914480258239507,
+							"parameters": {
+								"animation": "\"white\""
+							}
+						},
+						{
+							"id": "compare-animation-frame",
+							"objectClass": "enemy",
+							"sid": 278381151564134,
+							"parameters": {
+								"comparison": 0,
+								"number": "16"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "enemy",
+							"sid": 303851964437840,
+							"parameters": {
+								"object": "waterBallBossWhite",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 734833073669913,
+							"parameters": {
+								"audio-file": "boss power creation",
+								"loop": "not-looping",
+								"volume": "-3",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "waterBallBossWhite",
+							"sid": 450249595155247,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "waterBallBossWhite",
+							"sid": 784894797979096,
+							"parameters": {
+								"where": "in-front",
+								"object": "enemy"
+							}
+						},
+						{
+							"id": "find-path",
+							"objectClass": "waterBallBossWhite",
+							"sid": 248066998182828,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"x": "heroBlack2.X",
+								"y": "heroBlack2.Y"
+							}
+						}
+					],
+					"sid": 989990674399839
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-path-found",
+							"objectClass": "waterBallBossWhite",
+							"sid": 467252879216774,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"actions": [
+						{
+							"id": "move-along-path",
+							"objectClass": "waterBallBossWhite",
+							"sid": 844230198671100,
+							"behaviorType": "Pathfinding"
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 605416914071017,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "waterBallBossWhite",
+							"sid": 301708749440184
+						}
+					],
+					"sid": 196095813734180
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
 							"id": "on-animation-finished",
 							"objectClass": "enemy",
 							"sid": 486536323755366,
@@ -2224,11 +3114,11 @@
 						{
 							"id": "move-to-position",
 							"objectClass": "enemy",
-							"sid": 549320989184316,
+							"sid": 471676269659766,
 							"behaviorType": "MoveTo",
 							"parameters": {
-								"x": "576",
-								"y": "enemy.Y",
+								"x": "288",
+								"y": "416",
 								"mode": "direct"
 							}
 						},
@@ -2251,33 +3141,20 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-start-of-layout",
-					"objectClass": "System",
-					"sid": 796283970360033
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "trigger",
-					"sid": 285937123589699,
-					"parameters": {
-						"animation": "\"idle\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 256152754202552
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-collision-with-another-object",
 					"objectClass": "heroBlack",
 					"sid": 627994277197494,
 					"parameters": {
 						"object": "leva"
+					}
+				},
+				{
+					"id": "pick-children",
+					"objectClass": "leva",
+					"sid": 100667652238738,
+					"parameters": {
+						"child": "door2White",
+						"which": "own"
 					}
 				}
 			],
@@ -2290,9 +3167,22 @@
 						"animation": "\"action leva\"",
 						"from": "beginning"
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "door2White",
+					"sid": 669728134645721,
+					"parameters": {
+						"animation": "\"open\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 270069234956579
+		},
+		{
+			"eventType": "comment",
+			"text": "Bug_ non si riesce a far aprire la porta meccanica senza che questa slitti in altre posizioni. Non è un problema dell'animazione perchè anche usandone un altra ha lo stesso problema.Image point e bounding box sono giusti forse è un bug che interferisce con la posizione nella griglia del tile??? anche togliendo lo snap alla griglia non cambia"
 		}
 	],
 	"sid": 916420559192232
