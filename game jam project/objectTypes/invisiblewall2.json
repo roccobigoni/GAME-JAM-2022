@@ -1,0 +1,20 @@
+{
+	"name": "InvisibleWall2",
+	"plugin-id": "TiledBg",
+	"sid": 809888908726463,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4002966,
+		"useCollisionPoly": true
+	}
+}

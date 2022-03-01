@@ -1,0 +1,48 @@
+{
+	"name": "WhiteProjectile",
+	"plugin-id": "Sprite",
+	"sid": 906253864648552,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Proiettile",
+			"sid": 761361523729812
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "waterbg",
+			"name": "SfondoDacqua"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3319572,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 796551146593609,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

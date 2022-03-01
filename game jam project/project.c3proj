@@ -8,8 +8,8 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
+			"id": "TiledBg",
+			"name": "Sfondo affiancato",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -23,17 +23,17 @@
 			"bundled": false
 		},
 		{
-			"type": "plugin",
-			"id": "TiledBg",
-			"name": "Tiled Background",
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Muovi verso",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
 		},
 		{
-			"type": "plugin",
-			"id": "Keyboard",
-			"name": "Keyboard",
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Torretta",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -41,7 +41,15 @@
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "Solid",
+			"name": "Solido",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Proiettile",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -49,7 +57,7 @@
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Platform",
+			"name": "Piattaforme",
 			"author": "Scirra",
 			"version": "r276.2",
 			"bundled": false
@@ -57,7 +65,7 @@
 		{
 			"type": "effect",
 			"id": "waterbg",
-			"name": "Water background",
+			"name": "Sfondo d'acqua",
 			"author": "Viktor Korsun",
 			"version": "r276.2",
 			"bundled": false
@@ -66,15 +74,15 @@
 	"uniqueId": "o42b46ecghm",
 	"objectTypes": {
 		"items": [
-			"Tilemap",
-			"hero",
-			"TiledBackgroundBlack",
-			"TiledBackground2White",
-			"obstacleBlack",
-			"heroBlack",
-			"waterInBlack",
-			"obstacleWhite",
-			"Keyboard"
+			"SfondoAffiancato",
+			"SfondoAffiancato2",
+			"Sprite2",
+			"InvisibleWall",
+			"InvisibleWall2",
+			"Platform",
+			"WhiteProjectile",
+			"BlackProjectile",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -86,8 +94,7 @@
 	},
 	"layouts": {
 		"items": [
-			"First Level",
-			"Last level"
+			"Layout 1"
 		],
 		"subfolders": []
 	},
