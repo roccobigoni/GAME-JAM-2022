@@ -1,0 +1,655 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Behaviour",
+			"type": "string",
+			"initialValue": "Normal",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 515636651050203
+		},
+		{
+			"eventType": "variable",
+			"name": "State",
+			"type": "string",
+			"initialValue": "Black",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 142684367981180
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "White Space",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 362352884586309
+						},
+						{
+							"id": "compare-time",
+							"objectClass": "System",
+							"sid": 423902042447106,
+							"parameters": {
+								"comparison": 5,
+								"time-seconds": "2.0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite2",
+							"sid": 165042332025621,
+							"parameters": {
+								"animation": "\"Black Intro\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 388761860627931
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Sprite2",
+							"sid": 226166843475377,
+							"parameters": {
+								"animation": "\"Black Intro\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 898467744942314,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"Black\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite2",
+							"sid": 429734908581890,
+							"parameters": {
+								"animation": "\"Black Idle\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 568355291779425,
+							"parameters": {
+								"variable": "Behaviour",
+								"value": "\"Hostile\""
+							}
+						}
+					],
+					"sid": 964224679438552
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 125845520437691,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"Black\""
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite2",
+							"sid": 542003863770951,
+							"parameters": {
+								"animation": "\"Black Idle\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 345411363333359,
+							"parameters": {
+								"variable": "Behaviour",
+								"comparison": 0,
+								"value": "\"Hostile\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 516466654431990,
+							"parameters": {
+								"variable": "Behaviour",
+								"value": "\"Scream\""
+							}
+						}
+					],
+					"sid": 842104268977676
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 531852579327267,
+							"parameters": {
+								"variable": "Behaviour",
+								"comparison": 0,
+								"value": "\"Scream\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite2",
+							"sid": 558058257987701,
+							"parameters": {
+								"animation": "\"Black Scream\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Sprite2",
+							"sid": 411562513779680,
+							"behaviorType": "MuoviVerso"
+						}
+					],
+					"sid": 441075287873510
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Sprite2",
+							"sid": 619478735608039,
+							"parameters": {
+								"animation": "\"Black Scream\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 799442242873383,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"Black\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 888874136824447,
+							"parameters": {
+								"variable": "Behaviour",
+								"value": "\"Hostile\""
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite2",
+							"sid": 316750571382273,
+							"parameters": {
+								"animation": "\"Black Outro\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 295807165160398
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Sprite2",
+							"sid": 623293402924746,
+							"parameters": {
+								"animation": "\"Black Outro\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 497940459204193,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"Black\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite2",
+							"sid": 770912820902105,
+							"parameters": {
+								"animation": "\"White Intro\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "Sprite2",
+							"sid": 910402156150262,
+							"parameters": {
+								"x": "900"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 878916005288708,
+							"parameters": {
+								"variable": "State",
+								"value": "\"White\""
+							}
+						}
+					],
+					"sid": 580486752334825
+				}
+			],
+			"sid": 251717561151575
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Black Space",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Sprite2",
+							"sid": 845767555392971,
+							"parameters": {
+								"animation": "\"White Intro\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 554344478410239,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"White\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite2",
+							"sid": 926511857723577,
+							"parameters": {
+								"animation": "\"White Idle\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 696730983953782,
+							"parameters": {
+								"variable": "Behaviour",
+								"value": "\"Hostile\""
+							}
+						}
+					],
+					"sid": 240827409922875
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite2",
+							"sid": 347981848107425,
+							"parameters": {
+								"animation": "\"White Idle\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 490920819370272,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"White\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-position",
+							"objectClass": "Sprite2",
+							"sid": 546808886582135,
+							"behaviorType": "MuoviVerso",
+							"parameters": {
+								"x": "InvisibleWall2.X",
+								"y": "Sprite2.Y",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 575121179406608,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 434022838523348,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"White\""
+							}
+						},
+						{
+							"id": "is-animation-playing",
+							"objectClass": "Sprite2",
+							"sid": 466935739641830,
+							"parameters": {
+								"animation": "\"White Idle\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 398616898478095,
+							"parameters": {
+								"variable": "Behaviour",
+								"comparison": 0,
+								"value": "\"Hostile\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 314345661104155,
+							"parameters": {
+								"variable": "Behaviour",
+								"value": "\"Scream 2\""
+							}
+						}
+					],
+					"sid": 151706251731658
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 460865757991883,
+							"parameters": {
+								"variable": "Behaviour",
+								"comparison": 0,
+								"value": "\"Scream 2\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 191825397496442,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"White\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite2",
+							"sid": 900609370936334,
+							"parameters": {
+								"animation": "\"White Scream\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Sprite2",
+							"sid": 958914369763244,
+							"behaviorType": "MuoviVerso"
+						}
+					],
+					"sid": 284728570408348
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Sprite2",
+							"sid": 848613341800952,
+							"parameters": {
+								"animation": "\"White Scream\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 321377155283833,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"White\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 193917634622271,
+							"parameters": {
+								"variable": "Behaviour",
+								"value": "\"Hostile\""
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite2",
+							"sid": 718342070850249,
+							"parameters": {
+								"animation": "\"White Outro\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 149283993392616
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-animation-finished",
+							"objectClass": "Sprite2",
+							"sid": 450901324278323,
+							"parameters": {
+								"animation": "\"White Outro\""
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 215235706298227,
+							"parameters": {
+								"variable": "State",
+								"comparison": 0,
+								"value": "\"White\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Sprite2",
+							"sid": 650779344233060,
+							"parameters": {
+								"animation": "\"Black Intro\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "set-x",
+							"objectClass": "Sprite2",
+							"sid": 931816265547825,
+							"parameters": {
+								"x": "290"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 316826632290797,
+							"parameters": {
+								"variable": "State",
+								"value": "\"Black\""
+							}
+						}
+					],
+					"sid": 180321999623056
+				}
+			],
+			"sid": 662777750287293
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite2",
+					"sid": 494396979291097,
+					"parameters": {
+						"animation": "\"Black Scream\""
+					}
+				},
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "Sprite2",
+					"sid": 320744394118249,
+					"parameters": {
+						"comparison": 0,
+						"number": "6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Sprite2",
+					"sid": 652300628119074,
+					"parameters": {
+						"object": "BlackProjectile",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "move-to-object",
+					"objectClass": "BlackProjectile",
+					"sid": 732997329400932,
+					"behaviorType": "MuoviVerso",
+					"parameters": {
+						"object": "Sprite",
+						"image-point": "0",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 805174680982608
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-animation-playing",
+					"objectClass": "Sprite2",
+					"sid": 986931078207167,
+					"parameters": {
+						"animation": "\"White Scream\""
+					}
+				},
+				{
+					"id": "compare-animation-frame",
+					"objectClass": "Sprite2",
+					"sid": 201835235214210,
+					"parameters": {
+						"comparison": 0,
+						"number": "6"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "Sprite2",
+					"sid": 447297011516504,
+					"parameters": {
+						"object": "WhiteProjectile",
+						"layer": "0",
+						"image-point": "1",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "move-to-object",
+					"objectClass": "BlackProjectile",
+					"sid": 615967245892941,
+					"behaviorType": "MuoviVerso",
+					"parameters": {
+						"object": "Sprite",
+						"image-point": "0",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 874985168576207
+		}
+	],
+	"sid": 916420559192232
+}

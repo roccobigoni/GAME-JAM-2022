@@ -1,0 +1,53 @@
+{
+	"name": "BlackProjectile",
+	"plugin-id": "Sprite",
+	"sid": 891735588719150,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MuoviVerso",
+			"sid": 107401308693699
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Proiettile",
+			"sid": 111897008609078
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "waterbg",
+			"name": "SfondoDacqua"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9899447,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 306128182299524,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
