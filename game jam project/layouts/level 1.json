@@ -178,6 +178,7 @@
 			"sid": 215086379687065,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -337,6 +338,7 @@
 			"sid": 178709166791089,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -426,6 +428,7 @@
 			"sid": 885742181318045,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -554,7 +557,7 @@
 				{
 					"type": "takeStars",
 					"properties": {
-						"text": "Take the star for change level",
+						"text": "Take the star to change level",
 						"enable-bbcode": true,
 						"font": "Multicolore-Regular",
 						"size": 20,
@@ -596,7 +599,7 @@
 				{
 					"type": "takeStars",
 					"properties": {
-						"text": "Take the star for change level",
+						"text": "Take the star to change level",
 						"enable-bbcode": true,
 						"font": "Multicolore-Regular",
 						"size": 20,
@@ -639,6 +642,7 @@
 			"sid": 434260422941493,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -766,6 +770,7 @@
 			"sid": 841588485163256,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,

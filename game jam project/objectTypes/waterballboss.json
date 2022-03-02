@@ -8,7 +8,7 @@
 		{
 			"behaviorId": "Pathfinding",
 			"name": "Pathfinding",
-			"sid": 812687728949491
+			"sid": 853661925990679
 		}
 	],
 	"effectTypes": [
@@ -28,8 +28,8 @@
 					{
 						"width": 250,
 						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.48,
+						"originY": 1.232,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,

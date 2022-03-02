@@ -72,6 +72,17 @@
 					"parameters": {
 						"layout": "\"start comand layout\""
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 427682827598296,
+					"parameters": {
+						"audio-file": "prima scelta music",
+						"loop": "not-looping",
+						"volume": "-8",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 580029547905540

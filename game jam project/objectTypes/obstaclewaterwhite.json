@@ -1,14 +1,14 @@
 {
-	"name": "obstacletext",
+	"name": "obstacleWaterWhite",
 	"plugin-id": "Sprite",
-	"sid": 277945355072803,
+	"sid": 140580408071277,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": [
 		{
-			"effectId": "water",
-			"name": "Acqua"
+			"effectId": "waterbg",
+			"name": "WaterBackground"
 		}
 	],
 	"animations": {
@@ -16,31 +16,19 @@
 			{
 				"frames": [
 					{
-						"width": 252,
-						"height": 252,
+						"width": 64,
+						"height": 64,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6049404,
-						"collisionPoly": {
-							"points": [
-								0.003968253968253968,
-								0.003968253968253968,
-								0.996031746031746,
-								0.003968253968253968,
-								0.996031746031746,
-								0.996031746031746,
-								0.003968253968253968,
-								0.996031746031746
-							]
-						},
+						"imageSpriteId": 9484772,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 428503561640135,
+				"sid": 536144132584681,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

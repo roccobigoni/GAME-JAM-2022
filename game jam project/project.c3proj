@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 27602,
+	"savedWithRelease": 28500,
 	"name": "New project",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -8,10 +8,18 @@
 	"usedAddons": [
 		{
 			"type": "plugin",
-			"id": "TiledBg",
-			"name": "Sfondo affiancato",
+			"id": "Tilemap",
+			"name": "Tilemap",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -19,88 +27,247 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "MoveTo",
-			"name": "Muovi verso",
+			"id": "jumpthru",
+			"name": "Jump-thru",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
-			"id": "Turret",
-			"name": "Torretta",
+			"id": "Physics",
+			"name": "Physics",
 			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "solid",
-			"name": "Solido",
-			"author": "Scirra",
-			"version": "r276.2",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Bullet",
-			"name": "Proiettile",
-			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Piattaforme",
+			"name": "Platform",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Move To",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Anchor",
+			"name": "Anchor",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "waterbg",
-			"name": "Sfondo d'acqua",
+			"name": "Water background",
 			"author": "Viktor Korsun",
-			"version": "r276.2",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "water",
+			"name": "Water",
+			"author": "Viktor Korsun",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "glowvertical",
+			"name": "Glow vertical",
+			"author": "Scirra",
+			"version": "r285",
 			"bundled": false
 		}
 	],
 	"uniqueId": "o42b46ecghm",
 	"objectTypes": {
 		"items": [
-			"SfondoAffiancato",
-			"SfondoAffiancato2",
-			"Sprite2",
-			"InvisibleWall",
-			"InvisibleWall2",
-			"Platform",
-			"WhiteProjectile",
-			"BlackProjectile",
-			"Sprite"
+			"Tilemap",
+			"TiledBackgroundBlack",
+			"TiledBackground2White",
+			"buttonWhite",
+			"heroBlack",
+			"obstacleWaterWhite",
+			"Keyboard",
+			"obstacleWhite2",
+			"leva",
+			"coin",
+			"coin2",
+			"levaWhite",
+			"enemy",
+			"buttonBlack",
+			"heroBlack2",
+			"blackSea",
+			"Audio",
+			"wall",
+			"wall2",
+			"splash",
+			"cointxt",
+			"Score",
+			"obastacletext2",
+			"keyToEntry",
+			"title",
+			"obstacleWaterBlack",
+			"controls",
+			"controlsarrow",
+			"pressKeyToRestart",
+			"gameover",
+			"mouse",
+			"arrowWhite",
+			"takeStars",
+			"takeStarsWhite",
+			"starNewLevel",
+			"starNewLevelblack",
+			"waterBalls",
+			"waterBallsBlack",
+			"waterBallsParticel",
+			"waterBallsParticelBlack",
+			"waterTear",
+			"waterTearWhite",
+			"tower",
+			"towerWHITE",
+			"waterBallBoss",
+			"doorsWhite",
+			"doorblack",
+			"door2",
+			"door2White",
+			"waterBallBossWhite"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [],
+	"containers": [
+		{
+			"members": [
+				"waterBalls",
+				"waterBallsParticel"
+			],
+			"selectMode": "normal"
+		}
+	],
 	"families": {
-		"items": [],
+		"items": [
+			"heros",
+			"trigger",
+			"TEARS"
+		],
 		"subfolders": []
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"level 1",
+			"level 2",
+			"level 3",
+			"level 4",
+			"level 5",
+			"level 6",
+			"start comand layout",
+			"start",
+			"game over"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"levels sheet",
+			"start sheet",
+			"game over sheet"
 		],
 		"subfolders": []
 	},
@@ -110,8 +277,131 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
-			"subfolders": []
+			"items": [
+				{
+					"name": "coin.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 951059168917794
+				},
+				{
+					"name": "game over.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 380029312975948
+				},
+				{
+					"name": "boss power creation.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 602256325405512
+				}
+			],
+			"subfolders": [
+				{
+					"items": [
+						{
+							"name": "aqtterraggio freq.alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 110893510658420
+						},
+						{
+							"name": "atteraggio normale.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 353580876511108
+						},
+						{
+							"name": "leva freq alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 576023822502785
+						},
+						{
+							"name": "leva normal.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 282563932611447
+						},
+						{
+							"name": "porta  apertura freq.alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 915056420422245
+						},
+						{
+							"name": "porta  apertura.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 870480442174894
+						},
+						{
+							"name": "porta  chiusura freq.alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 991620879517975
+						},
+						{
+							"name": "porta  chiusura.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 179390005223642
+						},
+						{
+							"name": "prima scelta music.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 494295213216368
+						},
+						{
+							"name": "salto freq.alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 682847760552326
+						},
+						{
+							"name": "salto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 523706597269175
+						},
+						{
+							"name": "SOUNDS CORRECT.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 719050370166920
+						},
+						{
+							"name": "walk . watermp3.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 903038799365822
+						},
+						{
+							"name": "walk water freq. alto.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 301319536843597
+						},
+						{
+							"name": "Wet impact 02.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 134870304927588
+						},
+						{
+							"name": "Wet splat 01.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 751109439122011
+						},
+						{
+							"name": "Wet splat 02.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 514740975781240
+						},
+						{
+							"name": "Wet splat 03.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 515651329058871
+						},
+						{
+							"name": "Wet splat 04.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 243636935241262
+						},
+						{
+							"name": "Wet splat 05.webm",
+							"type": "audio/webm; codecs=opus",
+							"sid": 516575518773821
+						}
+					],
+					"subfolders": [],
+					"name": "sfx"
+				}
+			]
 		},
 		"music": {
 			"items": [],
@@ -122,7 +412,13 @@
 			"subfolders": []
 		},
 		"font": {
-			"items": [],
+			"items": [
+				{
+					"name": "Multicolore-Regular.otf",
+					"type": "application/font-sfnt",
+					"sid": 386168493042269
+				}
+			],
 			"subfolders": []
 		},
 		"icon": {
@@ -210,6 +506,8 @@
 		"authorWebsite": "",
 		"appId": "",
 		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "high",

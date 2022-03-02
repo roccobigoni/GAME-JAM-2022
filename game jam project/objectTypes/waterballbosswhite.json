@@ -1,14 +1,24 @@
 {
-	"name": "waterInBlack",
+	"name": "waterBallBossWhite",
 	"plugin-id": "Sprite",
-	"sid": 140580408071277,
+	"sid": 932690206166245,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Pathfinding",
+			"name": "Pathfinding",
+			"sid": 630507161287303
+		}
+	],
 	"effectTypes": [
 		{
-			"effectId": "waterbg",
-			"name": "WaterBackground"
+			"effectId": "water",
+			"name": "Water"
+		},
+		{
+			"effectId": "glowvertical",
+			"name": "GlowVertical"
 		}
 	],
 	"animations": {
@@ -16,20 +26,20 @@
 			{
 				"frames": [
 					{
-						"width": 64,
-						"height": 64,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1.324,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9484772,
+						"imageSpriteId": 8769026,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 536144132584681,
-				"name": "Animation 1",
+				"sid": 340100205192443,
+				"name": "idle",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

@@ -178,6 +178,7 @@
 			"sid": 717197428741897,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -337,6 +338,7 @@
 			"sid": 389615109300262,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -464,6 +466,7 @@
 			"sid": 312577123197174,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,
@@ -494,7 +497,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "obstacletext3",
+					"type": "obstacleWaterBlack",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -720,7 +723,7 @@
 					}
 				},
 				{
-					"type": "obstacletext3",
+					"type": "obstacleWaterBlack",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -764,7 +767,7 @@
 					}
 				},
 				{
-					"type": "obstacletext3",
+					"type": "obstacleWaterBlack",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -808,7 +811,7 @@
 					}
 				},
 				{
-					"type": "obstacletext3",
+					"type": "obstacleWaterBlack",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -1242,6 +1245,7 @@
 			"sid": 654547628615026,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
 			"color": [
 				1,
 				1,

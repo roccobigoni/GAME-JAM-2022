@@ -1,7 +1,7 @@
 {
-	"name": "obstacletext4",
+	"name": "obstacleWaterBlack",
 	"plugin-id": "Sprite",
-	"sid": 236029141474891,
+	"sid": 842934648413621,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -16,39 +16,31 @@
 			{
 				"frames": [
 					{
-						"width": 1024,
-						"height": 1024,
+						"width": 252,
+						"height": 252,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4705207,
+						"imageSpriteId": 2808651,
 						"collisionPoly": {
 							"points": [
-								0,
-								0,
-								0.5,
-								0,
-								0.9990234375,
-								0,
-								0.9990234375,
-								0.5,
-								0.9990234375,
-								0.9990234375,
-								0.5,
-								0.9990234375,
-								0,
-								0.9990234375,
-								0,
-								0.5
+								0.003968253968253968,
+								0.003968253968253968,
+								0.996031746031746,
+								0.003968253968253968,
+								0.996031746031746,
+								0.996031746031746,
+								0.003968253968253968,
+								0.996031746031746
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 701031620617342,
+				"sid": 925343933961452,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
