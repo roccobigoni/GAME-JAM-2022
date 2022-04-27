@@ -13,8 +13,43 @@
 					{
 						"width": 373,
 						"height": 241,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7922433,
+						"collisionPoly": {
+							"points": [
+								0.8734196321399563,
+								0,
+								0,
+								0,
+								0.8734196321399563,
+								1,
+								0,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 497229343532992,
+				"name": "idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 373,
+						"height": 241,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -37,8 +72,8 @@
 					{
 						"width": 373,
 						"height": 241,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -61,8 +96,8 @@
 					{
 						"width": 332,
 						"height": 271,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -85,8 +120,8 @@
 					{
 						"width": 384,
 						"height": 249,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -109,8 +144,8 @@
 					{
 						"width": 373,
 						"height": 241,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -133,8 +168,8 @@
 					{
 						"width": 373,
 						"height": 241,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.5683646112600537,
+						"originY": 0.970954356846473,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -161,7 +196,7 @@
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 12
 			}
 		],
 		"subfolders": []

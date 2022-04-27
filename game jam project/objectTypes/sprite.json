@@ -1,46 +1,35 @@
 {
 	"name": "Sprite",
 	"plugin-id": "Sprite",
-	"sid": 277945355072803,
+	"sid": 651669005515943,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
-	"effectTypes": [
+	"behaviorTypes": [
 		{
-			"effectId": "water",
-			"name": "Acqua"
+			"behaviorId": "Platform",
+			"name": "Piattaforme",
+			"sid": 296235106763074
 		}
 	],
+	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 252,
-						"height": 252,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 6049404,
-						"collisionPoly": {
-							"points": [
-								0.003968253968253968,
-								0.003968253968253968,
-								0.996031746031746,
-								0.003968253968253968,
-								0.996031746031746,
-								0.996031746031746,
-								0.003968253968253968,
-								0.996031746031746
-							]
-						},
+						"imageSpriteId": 7300504,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 428503561640135,
+				"sid": 482120660326684,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

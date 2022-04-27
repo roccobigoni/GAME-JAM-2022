@@ -1,0 +1,55 @@
+{
+	"name": "waterTear",
+	"plugin-id": "Sprite",
+	"sid": 358425921789109,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 150,
+						"height": 150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3037444,
+						"collisionPoly": {
+							"points": [
+								0.4532656250000002,
+								0.14114062500000002,
+								0.54653125,
+								0.22003125000000004,
+								0.6840312499999998,
+								0.5366250000000002,
+								0.5766249999999997,
+								0.6855625000000003,
+								0.40327929687499964,
+								0.7084238281250002,
+								0.27990234375,
+								0.5397539062500003,
+								0.37605468750000015,
+								0.3037578125000002
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 114365509194361,
+				"name": "idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

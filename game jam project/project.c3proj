@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 27602,
+	"savedWithRelease": 28500,
 	"name": "New project",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -11,15 +11,15 @@
 			"id": "Tilemap",
 			"name": "Tilemap",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "TiledBg",
-			"name": "Sfondo affiancato",
+			"name": "Tiled Background",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -27,15 +27,15 @@
 			"id": "Sprite",
 			"name": "Sprite",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "Tastiera",
+			"name": "Keyboard",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -43,15 +43,15 @@
 			"id": "Audio",
 			"name": "Audio",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Text",
-			"name": "Testo",
+			"name": "Text",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -59,23 +59,39 @@
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "jumpthru",
-			"name": "Salta attraverso",
+			"name": "Jump-thru",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Physics",
+			"name": "Physics",
+			"author": "Scirra",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Platform",
-			"name": "Piattaforme",
+			"name": "Platform",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
@@ -83,47 +99,79 @@
 			"id": "Flash",
 			"name": "Flash",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "MoveTo",
-			"name": "Muovi verso",
+			"name": "Move To",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "solid",
-			"name": "Solido",
+			"name": "Solid",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "behavior",
 			"id": "Anchor",
-			"name": "Ancoraggio",
+			"name": "Anchor",
 			"author": "Scirra",
-			"version": "r276.2",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Pathfinding",
+			"author": "Scirra",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "waterbg",
-			"name": "Sfondo d'acqua",
+			"name": "Water background",
 			"author": "Viktor Korsun",
-			"version": "r276.2",
+			"version": "r285",
 			"bundled": false
 		},
 		{
 			"type": "effect",
 			"id": "water",
-			"name": "Acqua",
+			"name": "Water",
 			"author": "Viktor Korsun",
-			"version": "r276.2",
+			"version": "r285",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "glowvertical",
+			"name": "Glow vertical",
+			"author": "Scirra",
+			"version": "r285",
 			"bundled": false
 		}
 	],
@@ -133,46 +181,71 @@
 			"Tilemap",
 			"TiledBackgroundBlack",
 			"TiledBackground2White",
-			"obstacleBlack",
+			"buttonWhite",
 			"heroBlack",
-			"waterInBlack",
+			"obstacleWaterWhite",
 			"Keyboard",
 			"obstacleWhite2",
-			"leve",
-			"door",
+			"leva",
 			"coin",
 			"coin2",
-			"door2",
 			"levaWhite",
 			"enemy",
-			"obstacleBlack2",
+			"buttonBlack",
 			"heroBlack2",
 			"blackSea",
 			"Audio",
 			"wall",
 			"wall2",
 			"splash",
-			"txtscore",
+			"cointxt",
 			"Score",
-			"Sprite3",
-			"Sprite",
-			"menu",
+			"obastacletext2",
+			"keyToEntry",
 			"title",
-			"Sprite6",
-			"Sprite4",
+			"obstacleWaterBlack",
 			"controls",
 			"controlsarrow",
-			"textstart",
+			"pressKeyToRestart",
 			"gameover",
-			"mouse"
+			"mouse",
+			"arrowWhite",
+			"takeStars",
+			"takeStarsWhite",
+			"starNewLevel",
+			"starNewLevelblack",
+			"waterBalls",
+			"waterBallsBlack",
+			"waterBallsParticel",
+			"waterBallsParticelBlack",
+			"waterTear",
+			"waterTearWhite",
+			"tower",
+			"towerWHITE",
+			"waterBallBoss",
+			"doorsWhite",
+			"doorblack",
+			"door2",
+			"door2White",
+			"waterBallBossWhite"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
-	"containers": [],
+	"containers": [
+		{
+			"members": [
+				"waterBalls",
+				"waterBallsParticel"
+			],
+			"selectMode": "normal"
+		}
+	],
 	"families": {
 		"items": [
-			"heros"
+			"heros",
+			"trigger",
+			"TEARS"
 		],
 		"subfolders": []
 	},
@@ -185,20 +258,16 @@
 			"level 5",
 			"level 6",
 			"start comand layout",
-			"Layout 1",
-			"Layout 2",
-			"Layout 3"
+			"start",
+			"game over"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1",
-			"TUTORIAL EVENT",
-			"Foglio evento 1",
-			"Foglio evento 2",
-			"Foglio evento 3",
-			"Foglio evento 4"
+			"levels sheet",
+			"start sheet",
+			"game over sheet"
 		],
 		"subfolders": []
 	},
@@ -208,7 +277,23 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "coin.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 951059168917794
+				},
+				{
+					"name": "game over.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 380029312975948
+				},
+				{
+					"name": "boss power creation.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 602256325405512
+				}
+			],
 			"subfolders": [
 				{
 					"items": [
@@ -421,6 +506,8 @@
 		"authorWebsite": "",
 		"appId": "",
 		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-scale",
 		"fullscreenQuality": "high",
